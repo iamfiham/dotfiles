@@ -11,7 +11,10 @@ alias grep='grep --color=auto'
 
 PS1='\[\033[01;32m\]┌──(\[\033[00m\]\u@\h\[\033[01;32m\])-[\[\033[01;34m\]\w\[\033[01;32m\]]\n└─\[\033[00m\]\$ '
 
-# personal user commands (Mohamed Fiham)
+# personal user commands
 	bind 'set completion-ignore-case on'
 	bind 'set show-all-if-ambiguous on'
 	bind 'TAB:menu-complete'
+	
+	
+
