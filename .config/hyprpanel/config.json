@@ -537,9 +537,9 @@
   "theme.osd.orientation": "vertical",
   "theme.osd.location": "right",
   "menus.transition": "crossfade",
-  "theme.bar.opacity": 85,
+  "theme.bar.opacity": 60,
   "theme.bar.buttons.monochrome": true,
-  "theme.bar.buttons.separator.color": "#3584e4",
+  "theme.bar.buttons.separator.color": "#ffffff",
   "bar.workspaces.spacing": 0.6,
   "theme.bar.buttons.windowtitle.enableBorder": false,
   "bar.windowtitle.custom_title": true,
@@ -555,7 +555,7 @@
   "theme.bar.buttons.dashboard.enableBorder": false,
   "bar.customModules.netstat.networkInterface": "",
   "theme.bar.buttons.workspaces.numbered_active_highlight_border": "10em",
-  "theme.bar.buttons.workspaces.numbered_active_highlight_padding": "0.5em",
+  "theme.bar.buttons.workspaces.numbered_active_highlight_padding": "0.45em",
   "theme.bar.buttons.workspaces.numbered_inactive_padding": "0.5em",
   "theme.bar.buttons.workspaces.fontSize": "1.1em",
   "theme.bar.buttons.workspaces.pill.active_width": "12em",
@@ -577,5 +577,6 @@
   "bar.notifications.hideCountWhenZero": false,
   "theme.bar.buttons.notifications.spacing": "0.2em",
   "bar.launcher.icon": " ",
-  "bar.media.truncation_size": 42
+  "bar.media.truncation_size": 42,
+  "theme.bar.buttons.network.enableBorder": false
 }
