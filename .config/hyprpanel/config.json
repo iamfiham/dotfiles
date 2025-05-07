@@ -358,7 +358,7 @@
   "theme.bar.menus.menu.network.switch.disabled": "#444444",
   "theme.bar.menus.menu.network.switch.puck": "#333333",
   "theme.bar.buttons.systray.customIcon": "#FFFFFF",
-  "theme.bar.border.color": "#FFFFFF",
+  "theme.bar.border.color": "#ffffff",
   "theme.bar.menus.menu.media.timestamp": "#FFFFFF",
   "theme.bar.buttons.borderColor": "#ffffff",
   "theme.bar.buttons.modules.hyprsunset.icon_background": "#ffffff",
@@ -432,10 +432,10 @@
   "menus.dashboard.shortcuts.right.shortcut1.tooltip": "",
   "menus.dashboard.shortcuts.right.shortcut1.command": "",
   "theme.bar.floating": false,
-  "bar.autoHide": "never",
+  "bar.autoHide": "fullscreen",
   "theme.bar.buttons.enableBorders": false,
-  "theme.bar.buttons.borderSize": "0.02em",
-  "theme.bar.border.location": "none",
+  "theme.bar.buttons.borderSize": "0.2em",
+  "theme.bar.border.location": "bottom",
   "bar.workspaces.show_icons": false,
   "bar.workspaces.show_numbered": true,
   "bar.workspaces.workspaceMask": false,
@@ -462,8 +462,9 @@
         "windowtitle"
       ],
       "right": [
-        "systray",
         "netstat",
+        "systray",
+        "cpu",
         "volume",
         "battery",
         "network",
@@ -578,5 +579,8 @@
   "theme.bar.buttons.notifications.spacing": "0.2em",
   "bar.launcher.icon": " ",
   "bar.media.truncation_size": 42,
-  "theme.bar.buttons.network.enableBorder": false
+  "theme.bar.buttons.network.enableBorder": false,
+  "menus.dashboard.stats.interval": 1000,
+  "bar.customModules.cpu.pollingInterval": 1000,
+  "theme.bar.border.width": "0.15px"
 }
