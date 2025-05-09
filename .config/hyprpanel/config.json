@@ -358,7 +358,7 @@
   "theme.bar.menus.menu.network.switch.disabled": "#444444",
   "theme.bar.menus.menu.network.switch.puck": "#333333",
   "theme.bar.buttons.systray.customIcon": "#FFFFFF",
-  "theme.bar.border.color": "#ffffff",
+  "theme.bar.border.color": "#5e5c64",
   "theme.bar.menus.menu.media.timestamp": "#FFFFFF",
   "theme.bar.buttons.borderColor": "#ffffff",
   "theme.bar.buttons.modules.hyprsunset.icon_background": "#ffffff",
@@ -431,7 +431,7 @@
   "menus.dashboard.shortcuts.right.shortcut1.icon": "",
   "menus.dashboard.shortcuts.right.shortcut1.tooltip": "",
   "menus.dashboard.shortcuts.right.shortcut1.command": "",
-  "theme.bar.floating": false,
+  "theme.bar.floating": true,
   "bar.autoHide": "fullscreen",
   "theme.bar.buttons.enableBorders": false,
   "theme.bar.buttons.borderSize": "0.2em",
@@ -582,5 +582,6 @@
   "theme.bar.buttons.network.enableBorder": false,
   "menus.dashboard.stats.interval": 1000,
   "bar.customModules.cpu.pollingInterval": 1000,
-  "theme.bar.border.width": "0.15px"
+  "theme.bar.border.width": "0.15px",
+  "theme.bar.margin_bottom": "1px"
 }

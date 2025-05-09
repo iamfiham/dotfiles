@@ -18,4 +18,7 @@ PS1='\[\033[01;32m\]┌──(\[\033[00m\]\u@\h\[\033[01;32m\])-[\[\033[01;34m\]
 	bind 'TAB:menu-complete'
 	
 	
-
+# cd on quit in nnn
+if [ -f /usr/share/nnn/quitcd/quitcd.bash_sh_zsh ]; then
+    source /usr/share/nnn/quitcd/quitcd.bash_sh_zsh
+fi
