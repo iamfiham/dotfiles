@@ -19,17 +19,21 @@ configuration {
 	font: "Adwaita Sans 12";
 	
 	/** colors **/
-    background:     #1E2127FF;
-    background-alt: #282B31FF;
-    foreground:     #FFFFFFFF;
-    selected:       #61AFEFFF;
-    active:         #98C379FF;
-    urgent:         #E06C75FF;
+    background:     #1E1D2FFF;
+    background-alt: #282839FF;
+    foreground:     #D9E0EEFF;
+    selected:       #7AA2F7FF;
+    active:         #ABE9B3FF;
+    urgent:         #F28FADFF;
+   
+    background-dark: #151420FF;
 }
 
 * {
-    border-colour:               var(selected);
+   
     handle-colour:               var(selected);
+    border-color:				 var(background-dark);
+    input-background-colour:     var(background-dark);
     background-colour:           var(background);
     foreground-colour:           var(foreground);
     alternate-background:        var(background-alt);
@@ -68,7 +72,7 @@ window {
     enabled:                     true;
     margin:                      0px;
     padding:                     0px;
-    border:                      0px solid;
+    border:                      2px solid;
     border-radius:               6px;
     border-color:                @border-colour;
     cursor:                      "default";
@@ -94,18 +98,19 @@ inputbar {
     spacing:                     0px;
     margin:                      0px;
     padding:                     0px;
-    border:                      0px 0px 1px 0px;
+    border:                      0px 0px 0px 0px;
     border-radius:               0px;
     border-color:                @alternate-background;
-    background-color:            @background-colour;
+	background-color:            @input-background-colour; 
+
     text-color:                  @foreground-colour;
-    children:                    [ "prompt", "entry" ];
+    children:                    ["entry","prompt" ];
 }
 
 prompt {
     enabled:                     true;
-    padding:                     15px;
-    border:                      0px 1px 0px 0px;
+    padding:                     18px;
+    border:                      0px 0px 0px 1px;
     border-radius:               0px;
     border-color:                @alternate-background;
     background-color:            inherit;
@@ -120,7 +125,7 @@ textbox-prompt-colon {
 }
 entry {
     enabled:                     true;
-    padding:                     15px;
+    padding:                     18px 24px;
     background-color:            inherit;
     text-color:                  inherit;
     cursor:                      text;
@@ -133,7 +138,7 @@ listview {
     enabled:                     true;
     columns:                     1;
     lines:                       8;
-    cycle:                       true;
+    cycle:                       false;
     dynamic:                     true;
     scrollbar:                   false;
     layout:                      vertical;
@@ -161,16 +166,19 @@ scrollbar {
 /*****----- Elements -----*****/
 element {
     enabled:                     true;
-    spacing:                     10px;
+    spacing:                     16px;
     margin:                      0px;
-    padding:                     8px 15px;
-    border:                      0px 0px 1px 0px;
+    padding:                     16px 24px;
+    border:                      0px 0px 0px 0px;
     border-radius:               0px;
     border-color:                @alternate-background;
     background-color:            transparent;
     text-color:                  @foreground-colour;
     cursor:                      pointer;
 }
+
+
+
 element normal.normal {
     background-color:            var(normal-background);
     text-color:                  var(normal-foreground);
@@ -207,10 +215,13 @@ element alternate.active {
     background-color:            var(alternate-active-background);
     text-color:                  var(alternate-active-foreground);
 }
+
+
+
 element-icon {
     background-color:            transparent;
     text-color:                  inherit;
-    size:                        48px;
+    size:                        24px;
     cursor:                      inherit;
 }
 element-text {
