@@ -16,7 +16,7 @@ configuration {
 * {
 	
 	/** font **/
-	font: "Adwaita Sans 12";
+	font: "Adwaita Sans 10";
 	
 	/** colors **/
     background:     #1E1D2FFF;
@@ -64,7 +64,7 @@ window {
     location:                    center;
     anchor:                      center;
     fullscreen:                  false;
-    width:                       700px;
+    width:                       600px;
     x-offset:                    0px;
     y-offset:                    0px;
 
@@ -109,7 +109,7 @@ inputbar {
 
 prompt {
     enabled:                     true;
-    padding:                     18px;
+    padding:                     12px;
     border:                      0px 0px 0px 1px;
     border-radius:               0px;
     border-color:                @alternate-background;
@@ -125,7 +125,7 @@ textbox-prompt-colon {
 }
 entry {
     enabled:                     true;
-    padding:                     18px 24px;
+    padding:                     12px 18px;
     background-color:            inherit;
     text-color:                  inherit;
     cursor:                      text;
@@ -168,7 +168,7 @@ element {
     enabled:                     true;
     spacing:                     16px;
     margin:                      0px;
-    padding:                     16px 24px;
+    padding:                     12px 18px;
     border:                      0px 0px 0px 0px;
     border-radius:               0px;
     border-color:                @alternate-background;
