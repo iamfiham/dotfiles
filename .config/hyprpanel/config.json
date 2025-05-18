@@ -1,9 +1,9 @@
 {
-  "theme.font.size": "0.85rem",
-  "theme.font.weight": 600,
+  "theme.font.size": "0.83rem",
+  "theme.font.weight": 500,
   "menus.transitionTime": 150,
-  "theme.font.name": "JetBrainsMonoNL Nerd Font Propo",
-  "theme.font.label": "JetBrainsMonoNL Nerd Font Propo Semi-Bold",
+  "theme.font.name": "PT Root UI",
+  "theme.font.label": "PT Root UI Medium",
   "theme.font.style": "normal",
   "notifications.position": "top right",
   "theme.notification.enableShadow": false,
@@ -431,7 +431,7 @@
   "menus.dashboard.shortcuts.right.shortcut1.icon": "",
   "menus.dashboard.shortcuts.right.shortcut1.tooltip": "",
   "menus.dashboard.shortcuts.right.shortcut1.command": "",
-  "theme.bar.floating": false,
+  "theme.bar.floating": true,
   "bar.autoHide": "fullscreen",
   "theme.bar.buttons.enableBorders": false,
   "theme.bar.buttons.borderSize": "0.2em",
@@ -523,7 +523,7 @@
   "theme.bar.buttons.modules.worldclock.spacing": "0.5em",
   "theme.bar.location": "top",
   "theme.bar.enableShadow": false,
-  "theme.bar.dropdownGap": "3em",
+  "theme.bar.dropdownGap": "2.5em",
   "theme.bar.margin_top": "0em",
   "theme.bar.layer": "top",
   "theme.bar.margin_sides": "0em",
@@ -583,5 +583,5 @@
   "menus.dashboard.stats.interval": 1000,
   "bar.customModules.cpu.pollingInterval": 1000,
   "theme.bar.border.width": "1px",
-  "theme.bar.margin_bottom": "0.1px"
+  "theme.bar.margin_bottom": "-1px"
 }

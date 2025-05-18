@@ -16,7 +16,8 @@ configuration {
 * {
 	
 	/** font **/
-	font: "Adwaita Sans 10";
+		/** font: "Adwaita Sans 10"; 	**/
+	font: "figtree 11";
 	
 	/** colors **/
     background:     #1E1D2FFF;
