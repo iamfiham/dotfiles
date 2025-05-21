@@ -35,8 +35,8 @@ fi
 echo -e "\n${BG_COLOR}${FG_BLACK}[INFO]${RESET} Pushing to origin/$BRANCH..."
 
 if git push origin "$BRANCH"; then
-    echo -e "\n${BG_COLOR}${FG_BLACK}[SUCCESS]${RESET} Dotfiles pushed to GitHub."
+    echo -e "\n${BG_COLOR}${FG_BLACK}[SUCCESS]${RESET} Dotfiles pushed to GitHub.\n"
 else
-    echo -e "\n${BG_COLOR}${FG_BLACK}[ERROR]${RESET} Git push failed."
+    echo -e "\n${BG_COLOR}${FG_BLACK}[ERROR]${RESET} Git push failed.\n"
     exit 1
 fi
