@@ -10,25 +10,26 @@ cd "$DOTFILES_DIR" || {
 }
 
 # Show git status
-echo "[INFO] Git status:"
+echo -e "\n[INFO] Git status:"
 git status
 
 # Add all changes
-echo "[INFO] Staging files..."
+echo -e "\n[INFO] Staging files..."
 git add .
 
 # Commit with user message
+echo -e "\n[INFO] Commiting files..."
 read -rp "Enter commit message: " COMMIT_MSG
 
 if ! git commit -m "$COMMIT_MSG"; then
-    echo "[WARNING] Nothing to commit or commit failed."
+    echo -e "\n[WARNING] Nothing to commit or commit failed."
 fi
 
 # Push to remote
-echo "[INFO] Pushing to origin/$BRANCH..."
+echo -e "\n[INFO] Pushing to origin/$BRANCH..."
 if git push origin "$BRANCH"; then
-    echo "[SUCCESS] Dotfiles pushed to GitHub."
+    echo -e "\n[SUCCESS] Dotfiles pushed to GitHub."
 else
-    echo "[ERROR] Git push failed. Check your network or authentication."
+    echo -e "\n[ERROR] Git push failed. Check your network or authentication."
     exit 1
 fi
