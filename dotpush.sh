@@ -28,15 +28,13 @@ echo -e "\n${BG_COLOR}${FG_BLACK}[INFO]${RESET} Commiting files..."
 read -rp "Enter commit message: " COMMIT_MSG
 
 if ! git commit -m "$COMMIT_MSG"; then
-    echo -e "\n${BG_COLOR}${FG_BLACK}[WARNING]${RESET} Nothing to commit or commit failed."
+  	exit 1
 fi
 
 # Push to remote
 echo -e "\n${BG_COLOR}${FG_BLACK}[INFO]${RESET} Pushing to origin/$BRANCH..."
 
-if git push origin "$BRANCH"; then
-    echo -e "\n${BG_COLOR}${FG_BLACK}[SUCCESS]${RESET} Dotfiles pushed to GitHub.\n"
-else
+if ! git push origin "$BRANCH"; then
     echo -e "\n${BG_COLOR}${FG_BLACK}[ERROR]${RESET} Git push failed.\n"
     exit 1
 fi
