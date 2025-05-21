@@ -24,7 +24,7 @@ alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 alias mp='mousepad'
 alias ll='ls -al'
-
+alias dotpush=~/.dotfiles/dotpush.sh
 
 # --------------------  PS1  ------------------------------------------
 
