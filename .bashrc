@@ -59,6 +59,3 @@ if [ -f /usr/share/nnn/quitcd/quitcd.bash_sh_zsh ]; then
 fi
 
 
-
-
-
