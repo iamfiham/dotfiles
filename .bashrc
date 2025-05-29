@@ -24,6 +24,9 @@ alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 alias mp='mousepad'
 alias ll='ls -al'
+
+alias rcp='rsync -ahv --progress'
+
 alias dotpush=~/.dotfiles/dotpush.sh
 
 # --------------------  PS1  ------------------------------------------
@@ -40,9 +43,14 @@ FG_BLACK="\[\033[01;30m\]"
 RESET="\[\033[00m\]" 
 
 
-# PS1='\u@\h \w \$ '
+if [[ $(tty) == /dev/tty* ]]; then
+    # You are in a real TTY
+    PS1='\u@\h \w \$ '
+else
+    # You are in a terminal emulator (like Kitty/Alacritty)
+    PS1="╭─${FG_COLOR1}◖${RESET}${BG_COLOR1}\u   ${RESET}${BG_COLOR2}${FG_COLOR1}${RESET}${BG_COLOR2}${FG_BLACK} 📁 \w${RESET}${FG_COLOR2}◗${RESET} \n╰─❯ "
+fi
 
-PS1="╭─${FG_COLOR1}◖${RESET}${BG_COLOR1}\u   ${RESET}${BG_COLOR2}${FG_COLOR1}${RESET}${BG_COLOR2}${FG_BLACK} 📁 \w${RESET}${FG_COLOR2}◗${RESET} \n╰─❯ "
 
 # --------------------  bind  ------------------------------------------
 

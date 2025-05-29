@@ -133,7 +133,7 @@
   "theme.bar.menus.menu.battery.border.color": "#241f31",
   "theme.bar.menus.menu.battery.background.color": "#1a1a1a",
   "theme.bar.menus.menu.battery.card.color": "#1a1a1a",
-  "theme.bar.menus.menu.systray.dropdownmenu.divider": "#1a1a1a",
+  "theme.bar.menus.menu.systray.dropdownmenu.divider": "#444444",
   "theme.bar.menus.menu.systray.dropdownmenu.text": "#CCCCCC",
   "theme.bar.menus.menu.systray.dropdownmenu.background": "#1a1a1a",
   "theme.bar.menus.menu.bluetooth.iconbutton.active": "#ffffff",
@@ -590,5 +590,6 @@
   "menus.power.showLabel": true,
   "theme.bar.menus.opacity": 100,
   "theme.osd.opacity": 100,
-  "theme.bar.buttons.clock.spacing": "0em"
+  "theme.bar.buttons.clock.spacing": "0em",
+  "theme.bar.buttons.volume.enableBorder": false
 }
