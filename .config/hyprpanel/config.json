@@ -1,9 +1,9 @@
 {
-  "theme.font.size": "0.82rem",
-  "theme.font.weight": 600,
+  "theme.font.size": "0.83rem",
+  "theme.font.weight": 500,
   "menus.transitionTime": 150,
-  "theme.font.name": "Satoshi",
-  "theme.font.label": "Satoshi Medium",
+  "theme.font.name": "SF Pro Display",
+  "theme.font.label": "SF Pro Display",
   "theme.font.style": "normal",
   "notifications.position": "top right",
   "theme.notification.enableShadow": false,
