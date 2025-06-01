@@ -321,14 +321,14 @@
   "theme.osd.icon_container": "#FFFFFF",
   "theme.osd.bar_container": "#000000",
   "theme.notification.close_button.label": "#000000",
-  "theme.notification.close_button.background": "#FFFFFF",
+  "theme.notification.close_button.background": "#444444",
   "theme.notification.labelicon": "#FFFFFF",
   "theme.notification.text": "#FFFFFF",
   "theme.notification.time": "#CCCCCC",
   "theme.notification.border": "#444444",
   "theme.notification.label": "#FFFFFF",
   "theme.notification.actions.text": "#000000",
-  "theme.notification.actions.background": "#FFFFFF",
+  "theme.notification.actions.background": "#ffffff",
   "theme.notification.background": "#1a1a1a",
   "theme.bar.buttons.modules.power.border": "#ffffff",
   "theme.bar.buttons.modules.weather.border": "#FFFFFF",
@@ -591,5 +591,6 @@
   "theme.bar.menus.opacity": 100,
   "theme.osd.opacity": 100,
   "theme.bar.buttons.clock.spacing": "0em",
-  "theme.bar.buttons.volume.enableBorder": false
+  "theme.bar.buttons.volume.enableBorder": false,
+  "theme.notification.opacity": 100
 }

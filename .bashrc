@@ -23,9 +23,10 @@ XDG_CONFIG_HOME=~/.config/
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 alias mp='mousepad'
-alias ll='ls -al'
+alias ll='ls -alhF'
 
 alias rcp='rsync -ahv --progress'
+alias srcp='sudo rsync -ahv --progress'
 
 alias dotpush=~/.dotfiles/dotpush.sh
 
@@ -54,7 +55,6 @@ fi
 
 # --------------------  bind  ------------------------------------------
 
-
 bind 'set completion-ignore-case on'
 bind 'set show-all-if-ambiguous on'
 bind 'TAB:menu-complete'
@@ -65,5 +65,15 @@ bind 'TAB:menu-complete'
 if [ -f /usr/share/nnn/quitcd/quitcd.bash_sh_zsh ]; then
     source /usr/share/nnn/quitcd/quitcd.bash_sh_zsh
 fi
+
+
+# cheat.sh 
+cheat() {
+  if [ -z "$1" ]; then
+    echo "Usage: cheat <command>"
+  else
+    curl -s "https://cheat.sh/$1"
+  fi
+}
 
 
