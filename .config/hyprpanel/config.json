@@ -323,10 +323,10 @@
   "theme.notification.close_button.label": "#000000",
   "theme.notification.close_button.background": "#444444",
   "theme.notification.labelicon": "#FFFFFF",
-  "theme.notification.text": "#FFFFFF",
+  "theme.notification.text": "#ffffff",
   "theme.notification.time": "#CCCCCC",
   "theme.notification.border": "#444444",
-  "theme.notification.label": "#FFFFFF",
+  "theme.notification.label": "#ffffff",
   "theme.notification.actions.text": "#000000",
   "theme.notification.actions.background": "#ffffff",
   "theme.notification.background": "#1a1a1a",
@@ -592,11 +592,13 @@
   "theme.osd.opacity": 100,
   "theme.bar.buttons.clock.spacing": "0em",
   "theme.bar.buttons.volume.enableBorder": false,
-  "theme.notification.opacity": 100,
+  "theme.notification.opacity": 80,
   "theme.bar.menus.popover.radius": "8px",
   "menus.dashboard.stats.enabled": true,
   "bar.customModules.netstat.rightClick": "",
   "bar.windowtitle.icon": true,
   "bar.volume.label": true,
-  "bar.volume.rightClick": ""
+  "bar.volume.rightClick": "",
+  "theme.notification.border_radius": "8px",
+  "notifications.timeout": 7000
 }

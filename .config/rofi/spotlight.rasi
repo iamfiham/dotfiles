@@ -25,20 +25,21 @@ window {
     background-color:   @bg0;
     location:       center;
     width:          640;
-    border-radius:  8;
+    border-radius:  12;
 }
 
 inputbar {
     font:   "SF Pro Display 12";
-    padding:    16px 22px;
-    spacing:    12px;
+    padding:    12px 30px;
+    spacing:    16px;
     children:   [ icon-search, entry ];
+	background-color: #FFFFFFAA;
 }
 
 icon-search {
     expand:     false;
     filename:   "search";
-    size: 28px;
+    size: 1em;
 }
 
 icon-search, entry, element-icon, element-text {
@@ -53,9 +54,9 @@ entry {
 }
 
 message {
-    border:             2px 0 0;
+/*    border:             2px 0 0; */
     border-color:       @bg1;
-    background-color:   @bg1;
+    background-color:   #FFFFFFAA;
 }
 
 textbox {
@@ -67,14 +68,18 @@ listview {
     columns:    1;
 
     fixed-height:   false;
-    border:         1px 0 0;
-    border-color:   @bg1;
+/*    border:         1px 0 0; */
+/*    border-color:   @bg1; */
 }
 
 element {
-    padding:            8px 24px;
+    padding:            6px 30px;
     spacing:            16px;
     background-color:   transparent;
+}
+
+element alternate normal {
+	background-color: #FFFFFF33;
 }
 
 element normal active {
