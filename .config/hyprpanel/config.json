@@ -2,8 +2,8 @@
   "theme.font.size": "0.85rem",
   "theme.font.weight": 500,
   "menus.transitionTime": 150,
-  "theme.font.name": "PP Neue Montreal",
-  "theme.font.label": "PP Neue Montreal Medium",
+  "theme.font.name": "SF Pro Display",
+  "theme.font.label": "SF Pro Display",
   "theme.font.style": "normal",
   "notifications.position": "top right",
   "theme.notification.enableShadow": false,
@@ -567,7 +567,7 @@
   "theme.bar.buttons.workspaces.enableBorder": false,
   "bar.clock.showTime": true,
   "bar.clock.showIcon": false,
-  "bar.clock.format": "%H:%M:%S",
+  "bar.clock.format": "%I:%M %p",
   "bar.workspaces.monitorSpecific": true,
   "bar.battery.label": true,
   "bar.battery.hideLabelWhenFull": false,
@@ -595,5 +595,8 @@
   "theme.notification.opacity": 100,
   "theme.bar.menus.popover.radius": "8px",
   "menus.dashboard.stats.enabled": true,
-  "bar.customModules.netstat.rightClick": ""
+  "bar.customModules.netstat.rightClick": "",
+  "bar.windowtitle.icon": true,
+  "bar.volume.label": true,
+  "bar.volume.rightClick": ""
 }
