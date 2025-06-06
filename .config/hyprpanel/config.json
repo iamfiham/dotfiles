@@ -432,7 +432,7 @@
   "menus.dashboard.shortcuts.right.shortcut1.tooltip": "",
   "menus.dashboard.shortcuts.right.shortcut1.command": "",
   "theme.bar.floating": true,
-  "bar.autoHide": "fullscreen",
+  "bar.autoHide": "never",
   "theme.bar.buttons.enableBorders": false,
   "theme.bar.buttons.borderSize": "1px",
   "theme.bar.border.location": "none",
