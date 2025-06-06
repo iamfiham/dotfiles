@@ -25,7 +25,10 @@ window {
     background-color:   @bg0;
     location:       center;
     width:          640;
+    y-offset: 300px;
     border-radius:  12;
+    anchor: center;
+  margin: 0px 0px 250px 0px;
 }
 
 inputbar {

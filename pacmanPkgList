@@ -1,5 +1,4 @@
 adw-gtk-theme
-adwaita-qt6-git
 ags-hyprpanel-git
 alsa-firmware
 alsa-utils
@@ -40,13 +39,11 @@ gnome-font-viewer
 gnome-system-monitor
 google-chrome
 gparted
-gpu-screen-recorder
 gpu-screen-recorder-gtk
 grub
 gthumb
 gvfs-mtp
 handbrake
-heroic-games-launcher-bin
 htop
 hypridle
 hyprland
