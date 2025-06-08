@@ -25,6 +25,7 @@ dnsmasq
 easyeffects
 efibootmgr
 evince
+eww-git
 exfatprogs
 fastfetch
 ffmpegthumbnailer
@@ -55,6 +56,7 @@ i7z
 intel-gpu-tools
 intel-media-driver
 intel-ucode
+inter-font
 jupyter-notebook
 kdenlive
 kitty
@@ -98,6 +100,7 @@ obsidian
 openssh
 os-prober
 otf-font-awesome
+otf-montserrat
 pacman-contrib
 pavucontrol
 pdfarranger
@@ -130,7 +133,11 @@ telegram-desktop
 terminus-font
 thunderbird
 tree
+ttf-cascadia-mono-nerd
+ttf-dejavu-nerd
+ttf-firacode-nerd
 ttf-ibm-plex
+ttf-opensans
 ttf-ubuntu-font-family
 tumbler
 uget

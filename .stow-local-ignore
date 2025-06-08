@@ -22,5 +22,4 @@ _darcs
 
 
 ### custom
-dotpush.sh
-pacmanPkgList
+^nosimlink-files$

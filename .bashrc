@@ -28,7 +28,7 @@ alias ll='ls -alhF'
 alias rcp='rsync -ahv --progress'
 alias srcp='sudo rsync -ahv --progress'
 
-alias dotpush=~/.dotfiles/dotpush.sh
+alias dotpush=~/.dotfiles/nosimlink-files/dotpush.sh
 
 # --------------------  PS1  ------------------------------------------
 
