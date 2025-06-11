@@ -82,6 +82,7 @@ man-db
 mangohud
 mousepad
 mpv
+mpvpaper
 nano
 ncdu
 nemo
@@ -159,6 +160,7 @@ wine-gecko
 wine-mono
 winetricks
 wl-clip-persist
+wlogout
 xdg-desktop-portal-gtk
 xdg-desktop-portal-hyprland
 xournalpp

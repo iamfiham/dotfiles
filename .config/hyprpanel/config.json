@@ -507,7 +507,7 @@
   },
   "bar.customModules.netstat.label": true,
   "bar.customModules.netstat.rateUnit": "auto",
-  "bar.customModules.netstat.labelType": "full",
+  "bar.customModules.netstat.labelType": "in",
   "bar.customModules.netstat.round": true,
   "bar.customModules.netstat.pollingInterval": 500,
   "bar.customModules.storage.pollingInterval": 2000,
@@ -600,5 +600,6 @@
   "bar.volume.label": true,
   "bar.volume.rightClick": "",
   "theme.notification.border_radius": "8px",
-  "notifications.timeout": 7000
+  "notifications.timeout": 7000,
+  "menus.dashboard.powermenu.confirmation": true
 }
