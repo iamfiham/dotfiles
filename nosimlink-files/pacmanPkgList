@@ -1,5 +1,4 @@
 adw-gtk-theme
-ags-hyprpanel-git
 alsa-firmware
 alsa-utils
 arch-install-scripts
@@ -19,14 +18,12 @@ conky
 cpio
 cpupower
 curl
-davinci-resolve
 dhcpcd
 discord
 dnsmasq
 easyeffects
 efibootmgr
 evince
-eww-git
 exfatprogs
 fastfetch
 ffmpegthumbnailer
@@ -39,9 +36,7 @@ git
 gnome-calculator
 gnome-font-viewer
 gnome-system-monitor
-google-chrome
 gparted
-gpu-screen-recorder-gtk
 grub
 gthumb
 gvfs-mtp
@@ -51,7 +46,6 @@ hypridle
 hyprland
 hyprlock
 hyprpolkitagent
-hyprshot
 i7z
 intel-gpu-tools
 intel-media-driver
@@ -67,7 +61,6 @@ lib32-gamemode
 lib32-libpulse
 lib32-mangohud
 lib32-mesa
-lib32-obs-vkcapture
 lib32-openal
 lib32-pipewire
 lib32-vulkan-intel
@@ -76,7 +69,6 @@ libva-utils
 linux
 linux-firmware
 linux-lts
-localsend-bin
 lutris
 man-db
 mangohud
@@ -95,7 +87,6 @@ ntfs-3g
 nvtop
 nwg-look
 obs-studio
-obs-vkcapture
 obsidian
 openssh
 os-prober
@@ -123,7 +114,6 @@ qt6ct
 ristretto
 rofi-wayland
 rtkit
-rustdesk-bin
 sddm
 sof-firmware
 stow
@@ -142,16 +132,12 @@ ttf-opensans
 ttf-ubuntu-font-family
 tumbler
 uget
-upscayl-bin
-ventoy-bin
 vim
 virt-manager
-visual-studio-code-bin
 vlc
 vpl-gpu-rt
 vulkan-intel
 waybar
-waydroid
 wev
 wget
 wine
@@ -159,10 +145,8 @@ wine-gecko
 wine-mono
 winetricks
 wl-clip-persist
-wlogout
 xdg-desktop-portal-gtk
 xdg-desktop-portal-hyprland
 xournalpp
-yay
 yazi
 yt-dlp
