@@ -82,7 +82,6 @@ man-db
 mangohud
 mousepad
 mpv
-mpvpaper
 nano
 ncdu
 nemo
@@ -115,7 +114,6 @@ power-profiles-daemon
 python
 python-pandas
 python-pip
-qemu-base
 qemu-full
 qt5-wayland
 qt5ct
@@ -125,6 +123,7 @@ qt6ct
 ristretto
 rofi-wayland
 rtkit
+rustdesk-bin
 sddm
 sof-firmware
 stow
