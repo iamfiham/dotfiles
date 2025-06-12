@@ -554,7 +554,7 @@
   "theme.bar.buttons.background_opacity": 0,
   "bar.launcher.autoDetectIcon": false,
   "theme.bar.buttons.dashboard.enableBorder": false,
-  "bar.customModules.netstat.networkInterface": "wlp0s20f3",
+  "bar.customModules.netstat.networkInterface": "",
   "theme.bar.buttons.workspaces.numbered_active_highlight_border": "10em",
   "theme.bar.buttons.workspaces.numbered_active_highlight_padding": "0.45em",
   "theme.bar.buttons.workspaces.numbered_inactive_padding": "0.5em",
