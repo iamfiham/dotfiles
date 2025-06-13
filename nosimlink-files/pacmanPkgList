@@ -53,6 +53,7 @@ intel-ucode
 inter-font
 jupyter-notebook
 kdenlive
+kget
 kitty
 kvantum
 less
@@ -119,6 +120,7 @@ sof-firmware
 stow
 sudo
 swww
+syncthing
 tealdeer
 telegram-desktop
 terminus-font
