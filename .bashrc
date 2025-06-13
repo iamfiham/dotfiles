@@ -28,6 +28,7 @@ alias ll='ls -alhF'
 alias rcp='rsync -ahv --progress'
 alias srcp='sudo rsync -ahv --progress'
 
+alias bat='bat --paging=never'
 alias dotpush=~/.dotfiles/nosimlink-files/dotpush.sh
 
 # --------------------  PS1  ------------------------------------------

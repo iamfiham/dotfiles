@@ -112,6 +112,7 @@ qt5ct
 qt6-multimedia-ffmpeg
 qt6-virtualkeyboard
 qt6ct
+rclone
 ristretto
 rofi-wayland
 rtkit
