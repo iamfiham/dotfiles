@@ -601,5 +601,6 @@
   "bar.volume.rightClick": "",
   "theme.notification.border_radius": "8px",
   "notifications.timeout": 7000,
-  "menus.dashboard.powermenu.confirmation": true
+  "menus.dashboard.powermenu.confirmation": true,
+  "bar.customModules.hyprsunset.temperature": "2500k"
 }
