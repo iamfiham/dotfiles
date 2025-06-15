@@ -507,7 +507,7 @@
   },
   "bar.customModules.netstat.label": true,
   "bar.customModules.netstat.rateUnit": "auto",
-  "bar.customModules.netstat.labelType": "in",
+  "bar.customModules.netstat.labelType": "full",
   "bar.customModules.netstat.round": true,
   "bar.customModules.netstat.pollingInterval": 800,
   "bar.customModules.storage.pollingInterval": 2000,
