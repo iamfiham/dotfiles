@@ -15,7 +15,6 @@ cheese
 clinfo
 cliphist
 conky
-copyq
 cpio
 cpupower
 curl
@@ -54,6 +53,7 @@ intel-media-driver
 intel-ucode
 inter-font
 jupyter-notebook
+kdeconnect
 kdenlive
 kget
 kitty
