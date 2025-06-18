@@ -20,7 +20,7 @@
         "power-profiles-daemon",
     	"cpu",
     	"backlight",
-        "pulseaudio",
+        "wireplumber",
         "battery",
         "clock"
       
@@ -130,7 +130,7 @@
 		"interval": 1,
 	},
 	
-	 "pulseaudio": {
+	 "wireplumber": {
         // "scroll-step": 1, // %, can be a float
         "format": "{icon}  {volume}%",
         "format-muted": "   {volume}%",
