@@ -19,7 +19,7 @@
         "tray",
         "power-profiles-daemon",
     	"cpu",
-        "custom/pipewire",
+        "pulseaudio",
         "battery",
         "clock"
     ],
@@ -88,7 +88,7 @@
             "critical": 10
         },
 		"interval": 1,
-        "format": "{icon}   {capacity}% ",
+        "format": "{icon}  {capacity}% ",
         "format-full": "{icon}  {capacity}%",
         "format-charging": "󰂅   {capacity}%",
         "format-plugged": " {capacity}%",
@@ -116,16 +116,16 @@
 		"format-disconnected" : "",
 		"interval": 1,
 	},
-
-
-	"custom/pipewire": {
-	  "tooltip": false,
-	  "max-length": 10,
-	  "exec": "$HOME/.config/waybar/scripts/pipewire.sh",
-	  "on-click": "pavucontrol",
-	  "on-scroll-up": "wpctl set-volume -l 1 @DEFAULT_AUDIO_SINK@ 5%+",
-	  "on-scroll-down": "wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%-"
-	}
+	 "pulseaudio": {
+        // "scroll-step": 1, // %, can be a float
+        "format": "{icon}  {volume}%",
+        "format-muted": "   {volume}%",
+        "format-icons": {
+            "default": ["", " ", "  "]
+        },
+        "reverse-scrolling" : true,
+        "on-click": "pavucontrol"
+    },
 
    
 }
