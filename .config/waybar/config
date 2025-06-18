@@ -19,17 +19,12 @@
         "tray",
         "power-profiles-daemon",
     	"cpu",
+    	"backlight",
         "pulseaudio",
         "battery",
         "clock"
+      
     ],
-    
-     "hyprland/window": {
-       	"format" : "{class}",
-         "icon": true,
-         "icon-size" : 16,
-     },
-    
     
    //  Modules configuration
      "hyprland/workspaces": {
@@ -44,6 +39,13 @@
              "default": ""
          }
      },
+        
+     "hyprland/window": {
+       	"format" : "{class}",
+         "icon": true,
+         "icon-size" : 16
+     },
+     
     "keyboard-state": {
         "numlock": true,
         "capslock": true,
@@ -53,6 +55,7 @@
             "unlocked": ""
         }
     },
+    
     "idle_inhibitor": {
         "format": "{icon}",
         "format-icons": {
@@ -60,6 +63,13 @@
             "deactivated": " "
         }
     },
+    
+    "backlight": {
+		"format": "{icon} {percent}%",
+		"format-icons": ["󰃝  "],
+		"reverse-scrolling" : true,
+	},
+    
     "tray": {
         "icon-size": 15,
         "spacing": 10,
@@ -68,19 +78,23 @@
         //   "TelegramDesktop": "$HOME/.local/share/icons/hicolor/16x16/apps/telegram.png"
         // }
     },
+    
     "clock": {
         // "timezone": "America/New_York",
         "format": "{:%I:%M %p }",
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
         "format-alt": "{:%d-%m-%Y}"
     },
+    
     "cpu": {
         "format": "   {usage}%",
         "tooltip": true
     },
+    
     "memory": {
         "format": "{}%  "
     },
+    
     "battery": {
         "states": {
             // "good": 95,
@@ -106,16 +120,16 @@
         "power-saver": " "
       }
     },
+    
     "network": {
 		"format": "↓ {bandwidthDownBytes} ↑ {bandwidthUpBytes}",
 		// "format-wifi": "↓ {bandwidthDownBytes} ↑ {bandwidthUpBytes}",
 		// "format-ethernet": "↓ {bandwidthDownBytes} ↑{bandwidthUpBytes}",
 		"tooltip-format": "{essid} - {signalStrength}%\nDefault gateway : {gwaddr}\n{ifname} - {ipaddr}/{cidr}",
-		// "tooltip-format-wifi": "{essid} ({signalStrength}%) ",
-		"format-linked": "{ifname} (No IP)",
 		"format-disconnected" : "",
 		"interval": 1,
 	},
+	
 	 "pulseaudio": {
         // "scroll-step": 1, // %, can be a float
         "format": "{icon}  {volume}%",
