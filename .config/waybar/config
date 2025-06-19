@@ -8,11 +8,11 @@
     
     // Choose the order of the modules
     "modules-left": [
-       "hyprland/workspaces"
+       "hyprland/workspaces",
+       "hyprland/submap"
     ],
     "modules-center": [
-        "hyprland/window",
-        "hyprland/submap"
+        "hyprland/window"
     ],
     "modules-right": [
         "network",
@@ -33,11 +33,7 @@
          "warp-on-scroll": false,
          "format": "{id}",
          "show-special" :true,
-         "format-icons": {
-             "urgent": "",
-             "active": "",
-             "default": ""
-         }
+         "sort-by" : "id"
      },
         
      "hyprland/window": {
@@ -105,7 +101,7 @@
         "format": "{icon}  {capacity}% ",
         "format-full": "{icon}  {capacity}%",
         "format-charging": "󰂅   {capacity}%",
-        "format-plugged": " {capacity}%",
+        "format-plugged": "  {capacity}%",
         "format-icons": ["󰁺", "󰁼", "󰁿", "󰂀", "󰂂"]
     },
 
@@ -123,8 +119,6 @@
     
     "network": {
 		"format": "↓ {bandwidthDownBytes} ↑ {bandwidthUpBytes}",
-		// "format-wifi": "↓ {bandwidthDownBytes} ↑ {bandwidthUpBytes}",
-		// "format-ethernet": "↓ {bandwidthDownBytes} ↑{bandwidthUpBytes}",
 		"tooltip-format": "{essid} - {signalStrength}%\nDefault gateway : {gwaddr}\n{ifname} - {ipaddr}/{cidr}",
 		"format-disconnected" : "",
 		"interval": 1,

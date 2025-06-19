@@ -11,30 +11,32 @@ window#waybar {
     color: #ffffff;
     transition-property: background-color;
     transition-duration: 0.5s;
-    padding: 10px;
 }
 
-window#waybar.hidden {
-    opacity: 0.2;
+window#waybar.fullscreen {
+	    background-color: #261FB3;
+}
+
+#submap {
+	 background-color: #4300FF;
+	 padding:0 8px;
+}
+
+window#waybar.fullscreen #submap {
+	 background-color: #FFFFFF;
+	 color:#000000;
 }
 
 /*
+
 window#waybar.empty {
     background-color: transparent;
 }
+
 window#waybar.solo {
     background-color: #FFFFFF;
 }
 */
-
-window#waybar.termite {
-    background-color: #3f3f3f;
-}
-
-window#waybar.chromium {
-    background-color: #000000;
-    border: none;
-}
 
 button {
     /* Use box-shadow instead of border so the text isn't offset */
@@ -55,6 +57,9 @@ button:hover {
     /* background-color: #ffbf00; */
 }
 
+#workspaces  {
+	padding: 0px 0px;
+}
 
 #workspaces button {
     padding: 0px 4px;
@@ -62,14 +67,22 @@ button:hover {
     color: #ffffff;
     opacity:0.8;
 	border-radius: 99px; 
+	margin: 0px 3px;
+}
+
+#workspaces button.special {
+	   background: rgba(255, 255, 255, 0.15);
+	   padding: 0px 10px;
 }
 
 #workspaces button:hover {
     background: rgba(255, 255, 255, 0.2);
 }
+
 #workspaces button.focused {
     background-color: #64727d;
 }
+
 #workspaces button.active {
     background-color: rgba(255, 255, 255, 0.8);
     color: #000000;
@@ -150,11 +163,12 @@ button:hover {
 }
 
 #power-profiles-daemon {
+
 }
 
 #power-profiles-daemon.performance {
-    /* background-color: #f53c3c; */
-    /* color: #ffffff; */
+    background-color: #ffffff;
+    color: #000000;
 }
 
 #power-profiles-daemon.balanced {
@@ -170,6 +184,7 @@ button:hover {
 label {
     opacity:0.8;
 }
+
 label:hover {
     /* background-color: rgba(0,0,0,0.2); */
     opacity:0.5;
@@ -216,7 +231,7 @@ label:hover {
 }
 
 #wireplumber.muted {
-    /* background-color: #f53c3c; */
+
 }
 
 #custom-media {
