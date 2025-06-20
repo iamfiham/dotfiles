@@ -1,7 +1,7 @@
 // -*- mode: jsonc -*-
 {
     "layer": "top", // Waybar at top layer
-    "position": "top", // Waybar position (top|bottom|left|right)
+    "position": "bottom", // Waybar position (top|bottom|left|right)
    // "height": 30, // Waybar height (to be removed for auto height)
     // "width": 1280, // Waybar width
     "spacing": 12, // Gaps between modules (4px)
@@ -12,11 +12,12 @@
        "hyprland/submap"
     ],
     "modules-center": [
-        "hyprland/window"
+		"hyprland/window"	
     ],
     "modules-right": [
         "network",
         "tray",
+        "idle_inhibitor",
         "power-profiles-daemon",
     	"cpu",
     	"backlight",
@@ -37,8 +38,10 @@
      },
         
      "hyprland/window": {
-       	"format" : "{class}",
-         "icon": true,
+       	 // "format" : "{class}",
+         // "icon": true,
+         "format" : "",
+         "icon": false,
          "icon-size" : 16
      },
      
@@ -104,7 +107,15 @@
         "format-plugged": "  {capacity}%",
         "format-icons": ["󰁺", "󰁼", "󰁿", "󰂀", "󰂂"]
     },
-
+	
+	"idle_inhibitor": {
+		"format": "{icon}",
+		"format-icons": {
+		    "activated": " ",
+		    "deactivated": " "
+		}
+	},
+	
     "power-profiles-daemon": {
       "format": "{icon}",
       "tooltip-format": "{profile}\nDriver: {driver}",
@@ -126,9 +137,15 @@
 	
 	 "wireplumber": {
         // "scroll-step": 1, // %, can be a float
-        "format": "{icon}  {volume}%",
+        "format": "{icon}  {volume}%", 
         "format-muted": "   {volume}%",
         "format-icons": {
+         	"headphone": "",
+            "hands-free": "",
+            "headset": "",
+            "phone": "",
+            "portable": "",
+            "car": "",
             "default": ["", " ", "  "]
         },
         "reverse-scrolling" : true,

@@ -11,13 +11,13 @@ on-button-left=dismiss
 on-notify=exec paplay /usr/share/sounds/freedesktop/stereo/bell.oga
 
 font=SF Pro Display 12
-background-color=#28556655
+background-color=#1c1f2688
 text-color=#FFFFFFCC
 padding=12
-border-size=1
-border-color=#FFFFFF29
+border-size=2
+border-color=#FFFFFF11
 border-radius=6
-margin=10
+margin=6
 text-alignment=left
 
 max-icon-size=64

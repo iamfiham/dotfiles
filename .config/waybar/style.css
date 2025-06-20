@@ -6,7 +6,7 @@
 }
 
 window#waybar {
-    background-color: rgba(18, 22, 25, 0.9);
+    background-color: rgba(35, 42, 53, 1);
     /* border-bottom: 3px solid rgba(100, 114, 125, 0.5); */
     color: #ffffff;
     transition-property: background-color;
@@ -275,8 +275,8 @@ label:hover {
 }
 
 #idle_inhibitor.activated {
-    /* background-color: #ecf0f1; */
-    /* color: #2d3436; */
+    background-color: #ffffff;
+    color: #000000;
 }
 
 #mpd {

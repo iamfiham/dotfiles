@@ -105,11 +105,6 @@
             "keyColor": "33",
         },
         {
-            "type": "disk",
-            "key": " ├ 󰋊 ",
-            "keyColor": "33",
-        },
-        {
             "type": "monitor",
             "key": " └  ",
             "keyColor": "33",
