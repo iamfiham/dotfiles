@@ -14,7 +14,7 @@ window#waybar {
 }
 
 window#waybar.fullscreen {
-	    background-color: #261FB3;
+	    /* background-color: #261FB3; */
 }
 
 #submap {
@@ -58,7 +58,7 @@ button:hover {
 }
 
 #workspaces  {
-	padding: 0px 0px;
+	padding: 2px 0px;
 }
 
 #workspaces button {
