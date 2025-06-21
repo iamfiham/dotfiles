@@ -83,9 +83,9 @@ cheat() {
 eval "$(fzf --bash)"
 
 export FZF_DEFAULT_OPTS='-m -e --inline-info --border --preview "bat {}"'
-export FZF_DEFAULT_COMMAND='fd --hidden --exclude .cache --exclude .git'
+export FZF_DEFAULT_COMMAND='fd --hidden --exclude .cache --exclude .git --exclude .venv --exclude .cargo'
 
-export FZF_CTRL_T_COMMAND='fd --hidden --exclude .cache --exclude .git'
+export FZF_CTRL_T_COMMAND=$FZF_DEFAULT_COMMAND
 export FZF_ALT_C_COMMAND=''
 
 # ----------------------------------------------------------------------
