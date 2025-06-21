@@ -16,7 +16,7 @@
 # ----------------------------------------------------------------------
 
 HISTSIZE=10000
-XDG_CONFIG_HOME=~/.config/
+export XDG_CONFIG_HOME=~/.config/
 
 # --------------------  Alias  ------------------------------------------
 
@@ -77,4 +77,16 @@ cheat() {
   fi
 }
 
+# ------------------------ fzf -----------------------------------------
+
+# Set up fzf key bindings and fuzzy completion
+eval "$(fzf --bash)"
+
+export FZF_DEFAULT_OPTS='-m -e --inline-info --border --preview "bat {}"'
+export FZF_DEFAULT_COMMAND='fd --hidden --exclude .cache --exclude .git'
+
+export FZF_CTRL_T_COMMAND='fd --hidden --exclude .cache --exclude .git'
+export FZF_ALT_C_COMMAND=''
+
+# ----------------------------------------------------------------------
 
