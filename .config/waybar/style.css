@@ -6,25 +6,63 @@
 }
 
 window#waybar {
-    background-color: rgba(35, 42, 53, 1);
-    /* border-bottom: 3px solid rgba(100, 114, 125, 0.5); */
+    background-color: rgba(30,34,39, 1);
     color: #ffffff;
     transition-property: background-color;
     transition-duration: 0.5s;
+    box-shadow: inset 0 -3px 12px rgba(255,255,255,0.1);
+    border-bottom: 1px solid rgba(60,60,60,1);
 }
 
-window#waybar.fullscreen {
-	    /* background-color: #261FB3; */
+/*
+.modules-left {
+    background-color: #000000; 
+    padding: 2px 2px;
+    border-radius: 99px;
+}
+
+.modules-center,.modules-right {
+    background-color: #000000; 
+    padding: 2px 12px;
+    border-radius: 99px;
+} 
+*/
+
+#window,
+#clock,
+#battery,
+#cpu,
+#memory,
+#disk,
+#temperature,
+#backlight,
+#network,
+#pulseaudio,
+#wireplumber,
+#custom-media,
+#custom-power,
+#tray,
+#mode,
+#idle_inhibitor,
+#scratchpad,
+#power-profiles-daemon,
+#custom-pipewire,
+#mpd {
+    padding: 0 6px;
+    color: #ffffff;
+}
+
+window#waybar.fullscreen #window{
+	background-color: rgba(255,255,255,1);
+	color : black;
+	padding: 0 50px;
+
 }
 
 #submap {
-	 background-color: #4300FF;
-	 padding:0 8px;
-}
-
-window#waybar.fullscreen #submap {
 	 background-color: #FFFFFF;
 	 color:#000000;
+	 padding:0 8px;
 }
 
 /*
@@ -51,10 +89,6 @@ button:hover {
     background: red;
     opacity:0.2;
     /* box-shadow: inset 0 -3px #ffffff; */
-}
-
-.modules-left {
-    /* background-color: #ffbf00; */
 }
 
 #workspaces  {
@@ -92,32 +126,7 @@ button:hover {
     background-color: #eb4d4b;
 }
 
-#clock,
-#battery,
-#cpu,
-#memory,
-#disk,
-#temperature,
-#backlight,
-#network,
-#pulseaudio,
-#wireplumber,
-#custom-media,
-#custom-power,
-#tray,
-#mode,
-#idle_inhibitor,
-#scratchpad,
-#power-profiles-daemon,
-#custom-pipewire,
-#mpd {
-    padding: 0 6px;
-    color: #ffffff;
-}
 
-#window {
-    margin: 0px 4px;
-}
 
 /* If workspaces is the leftmost module, omit left margin */
 .modules-left > widget:first-child > #workspaces {
@@ -256,9 +265,8 @@ label:hover {
     /* background-color: #eb4d4b; */
 }
 
-#tray menu {
-    background-color: rgba(25,29,40,1);
-    border: 2px solid rgba(255,255,255,0.06);
+#tray {
+    
 }
 
 #tray > .passive {

@@ -38,6 +38,7 @@ git
 gnome-calculator
 gnome-font-viewer
 gnome-system-monitor
+gnome-text-editor
 gparted
 grub
 gthumb
@@ -91,6 +92,7 @@ nodejs
 npm
 ntfs-3g
 nvtop
+nwg-dock-hyprland
 nwg-look
 obs-studio
 obsidian
