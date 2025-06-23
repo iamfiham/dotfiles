@@ -18,8 +18,8 @@
     "modules-right": [
         "network",
         "tray",
-        "idle_inhibitor",
         "power-profiles-daemon",
+        "idle_inhibitor",
     	"cpu",
     	"backlight",
         "wireplumber",
@@ -63,14 +63,14 @@
     },
     
     "backlight": {
-		"format": "{icon} {percent}%",
-		"format-icons": ["󰃝  "],
+		"format": "{icon}  {percent}%",
+		"format-icons": ["󰃞 ","󰃟 ","󰃠 "],
 		"reverse-scrolling" : true,
 	},
     
     "tray": {
         "icon-size": 15,
-        "spacing": 10,
+        "spacing": 20,
         // "icons": {
         //   "blueman": "bluetooth",
         //   "TelegramDesktop": "$HOME/.local/share/icons/hicolor/16x16/apps/telegram.png"
@@ -102,34 +102,35 @@
 		"interval": 1,
         "format": "{icon}  {capacity}% ",
         "format-full": "{icon}  {capacity}%",
-        "format-charging": "󰂅   {capacity}%",
+        "format-charging": "{icon}󱐋  {capacity}%",
         "format-plugged": "  {capacity}%",
         "format-icons": ["󰁺", "󰁼", "󰁿", "󰂀", "󰂂"]
     },
 	
 	"idle_inhibitor": {
-		"format": "{icon}",
+		"format": "{icon} ",
 		"format-icons": {
-		    "activated": " ",
-		    "deactivated": " "
+		    "activated": "",
+		    "deactivated": ""
 		}
 	},
 	
     "power-profiles-daemon": {
-      "format": "{icon}",
+      "format": " {icon} ",
       "tooltip-format": "{profile}\nDriver: {driver}",
       "tooltip": true,
       "format-icons": {
-        "default": " ",
-        "performance": "  ",
-        "balanced": " ",
-        "power-saver": " "
+        "default": "",
+        "performance": "",
+        "balanced": "",
+        "power-saver": ""
       }
     },
     
     "network": {
-		"format": "↓ {bandwidthDownBytes} ↑ {bandwidthUpBytes}",
-		"tooltip-format": "{essid} - {signalStrength}%\nDefault gateway : {gwaddr}\n{ifname} - {ipaddr}/{cidr}",
+		"format": "↓ {bandwidthDownBytes}",
+		"format-alt": "↓ {bandwidthDownBytes}  ↑ {bandwidthUpBytes}",
+		"tooltip-format": "{essid}  :  {signalStrength}%\nDefault gateway  :  {gwaddr}\n{ifname}  :  {ipaddr}/{cidr}",
 		"format-disconnected" : "",
 		"interval": 1,
 	},
@@ -137,7 +138,7 @@
 	 "wireplumber": {
         // "scroll-step": 1, // %, can be a float
         "format": "{icon}  {volume}%", 
-        "format-muted": "   {volume}%",
+        "format-muted": "󰖁   {volume}%",
         "format-icons": {
          	"headphone": "",
             "hands-free": "",
@@ -151,7 +152,7 @@
         "on-click": "pavucontrol"
     },
     "wlr/taskbar": {
-    "all-outputs": true,
+		"all-outputs": true,
 		"format": "{icon}",
 		"icon-size": 14,
 		// "icon-theme": "Numix-Circle",
