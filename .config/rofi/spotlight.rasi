@@ -24,16 +24,15 @@
 window {
     background-color:   @bg0;
     location:       center;
-    width:          640;
-    y-offset: 300px;
+    width:          700;
     border-radius:  6;
     anchor: center;
-  margin: 0px 0px 250px 0px;
+  	margin: 0px;
 }
 
 inputbar {
-    font:   "SF Pro Display 12";
-    padding:    12px 30px;
+    font:   "SF Pro Display 14";
+    padding:    16px 30px;
     spacing:    16px;
     children:   [ icon-search, entry ];
 	background-color: #FFFFFFAA;
@@ -42,7 +41,7 @@ inputbar {
 icon-search {
     expand:     false;
     filename:   "search";
-    size: 1em;
+    size: 30px;
 }
 
 icon-search, entry, element-icon, element-text {
@@ -67,16 +66,17 @@ textbox {
 }
 
 listview {
-    lines:      9;
+    lines:      20;
     columns:    1;
+    scrollbar: true;
 
-    fixed-height:   false;
+    fixed-height:   true;
 /*    border:         1px 0 0; */
 /*    border-color:   @bg1; */
 }
 
 element {
-    padding:            6px 30px;
+    padding:            8px 30px;
     spacing:            16px;
     background-color:   transparent;
 }
@@ -104,4 +104,11 @@ element-icon {
 
 element-text {
     text-color: inherit;
+}
+
+#scrollbar {
+	background-color:@bg0 ;
+    handle-color: @bg2;
+    handle-width: 4px ;
+    padding: 2;
 }
