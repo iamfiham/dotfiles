@@ -22,26 +22,28 @@
 }
 
 window {
-    background-color:   @bg0;
-    location:       center;
+    background-color:   transparent;
+    location:       north;
     width:          700;
-    border-radius:  6;
     anchor: center;
-  	margin: 0px;
+  	margin: 150px 0px 0px 0px;
 }
 
 inputbar {
     font:   "SF Pro Display 14";
-    padding:    16px 30px;
+    padding:    16px 16px;
     spacing:    16px;
     children:   [ icon-search, entry ];
-	background-color: #FFFFFFAA;
+	background-color: #FFFFFFDD;
+    
+    margin: 0px 0px 6px 0px;
+    border-radius:  6;
 }
 
 icon-search {
     expand:     false;
     filename:   "search";
-    size: 30px;
+    size: 1.5em;
 }
 
 icon-search, entry, element-icon, element-text {
@@ -50,15 +52,17 @@ icon-search, entry, element-icon, element-text {
 
 entry {
     font:   inherit;
-
     placeholder         : " Search";
     placeholder-color   : @fg2;
+    
 }
 
 message {
 /*    border:             2px 0 0; */
     border-color:       @bg1;
-    background-color:   #FFFFFFAA;
+    background-color:   #FFFFFFCC;
+    margin: 0px 0px 6px 0px;
+    border-radius:  6 ;
 }
 
 textbox {
@@ -66,40 +70,46 @@ textbox {
 }
 
 listview {
-    lines:      20;
+    lines:      15;
     columns:    1;
-    scrollbar: true;
+/*    scrollbar: true; */
 
-    fixed-height:   true;
+    fixed-height:   false;
 /*    border:         1px 0 0; */
 /*    border-color:   @bg1; */
+	background-color:   @bg0;
+	border-radius:  12;
 }
 
 element {
-    padding:            8px 30px;
+    padding:            5px 24px;
     spacing:            16px;
     background-color:   transparent;
 }
 
 element alternate normal {
 	background-color: #FFFFFF33;
+	
 }
 
 element normal active {
     text-color: @bg2;
+    
 }
 
 element alternate active {
     text-color: @bg2;
+ 
 }
 
 element selected normal, element selected active {
     background-color:   @bg2;
     text-color:         @fg1;
+  	    
 }
 
 element-icon {
-    size:   1em;
+    size:   1.5em;
 }
 
 element-text {
