@@ -1,6 +1,7 @@
 adw-gtk-theme
 alsa-firmware
 alsa-utils
+android-tools
 arch-install-scripts
 base
 base-devel
@@ -30,6 +31,7 @@ fd
 ffmpegthumbnailer
 firefox
 fish
+flatpak
 fuse3
 fzf
 gamemode
@@ -49,6 +51,7 @@ hypridle
 hyprland
 hyprlock
 hyprpolkitagent
+hyprshot
 hyprsunset
 i7z
 imagemagick
@@ -62,6 +65,7 @@ kdenlive
 kget
 kitty
 kvantum
+kvantum-qt5
 less
 lib32-alsa-plugins
 lib32-gamemode
@@ -75,7 +79,7 @@ libreoffice-fresh
 libva-utils
 linux
 linux-firmware
-linux-lts
+linux-headers
 lutris
 mako
 man-db
@@ -124,6 +128,7 @@ rclone
 ristretto
 rofi-wayland
 rtkit
+scrcpy
 sddm
 sof-firmware
 stow
@@ -141,9 +146,11 @@ ttf-dejavu-nerd
 ttf-firacode-nerd
 ttf-ibm-plex
 ttf-opensans
+ttf-roboto
 ttf-ubuntu-font-family
 tumbler
 uget
+usbutils
 vim
 virt-manager
 vlc

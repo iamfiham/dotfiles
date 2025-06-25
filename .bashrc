@@ -27,6 +27,8 @@ alias ll='ls -alhF'
 
 alias rcp='rsync -ahv --progress'
 alias srcp='sudo rsync -ahv --progress'
+alias scrcpy-screen='scrcpy --max-size=1080 --max-fps=60 --video-codec=h264 --video-bit-rate=4M --video-buffer=50 --print-fps'
+alias scrcpy-camera='scrcpy --video-source=camera --max-fps=30 --camera-size=1920x1080 --camera-facing=front --print-fps'
 
 alias bat='bat --paging=never'
 alias dotpush=~/.dotfiles/nosimlink-files/dotpush.sh
