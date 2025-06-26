@@ -26,5 +26,7 @@ default-timeout=7500
 ignore-timeout=0
 max-visible=5
 
-[urgency=normal]
 on-notify=exec paplay /usr/share/sounds/freedesktop/stereo/bell.oga
+
+[urgency=low]
+on-notify=none
