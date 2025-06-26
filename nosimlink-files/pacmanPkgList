@@ -78,7 +78,7 @@ lib32-vulkan-intel
 libreoffice-fresh
 libva-utils
 linux
-linux-firmware
+linux-firmware-intel
 linux-headers
 lutris
 mako
