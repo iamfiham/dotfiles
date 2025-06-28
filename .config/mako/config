@@ -1,4 +1,4 @@
-width=320
+width=350
 height=120
 history=1
 max-history=100
@@ -10,13 +10,13 @@ anchor=top-right
 on-button-left=dismiss
 
 
-font=SF Pro Display 12
-background-color=#1c1f2688
+font=SF Pro Display 13
+background-color=#211D23BB
 text-color=#FFFFFFCC
-padding=12
-border-size=2
+padding=16
+border-size=1
 border-color=#FFFFFF11
-border-radius=6
+border-radius=12
 margin=6
 text-alignment=left
 
@@ -30,3 +30,5 @@ on-notify=exec paplay /usr/share/sounds/freedesktop/stereo/bell.oga
 
 [urgency=low]
 on-notify=none
+
+progress-color=source #ffffff22

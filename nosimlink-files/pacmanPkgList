@@ -94,7 +94,6 @@ network-manager-applet
 networkmanager
 nnn
 nodejs
-npm
 ntfs-3g
 nvtop
 nwg-dock-hyprland
@@ -138,7 +137,6 @@ syncthing
 tealdeer
 telegram-desktop
 terminus-font
-thunderbird
 timeshift
 tree
 ttf-cascadia-mono-nerd

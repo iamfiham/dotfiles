@@ -33,4 +33,4 @@ notify-send  "$title" "$vol_percent%" \
 			 -t 1500 \
  			 -h int:value:"$vol_percent" \
 			 -h string:x-canonical-private-synchronous:volume \
-			 -u normal 
+			 -u low 

@@ -87,6 +87,11 @@ element {
     background-color:   transparent;
 }
 
+element  normal {
+	background-color: #FFFFFF66;
+	
+}
+
 element alternate normal {
 	background-color: #FFFFFF33;
 	
