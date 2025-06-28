@@ -37,11 +37,11 @@ alias code="code --enable-features=UseOzonePlatform --ozone-platform=wayland"
 
 # --------------------  PS1  ------------------------------------------
 
-BG_COLOR1="\[\033[48;2;52;54;56m\]"
-FG_COLOR1="\[\033[38;2;52;54;56m\]"
+BG_DARK="\[\033[48;2;52;54;56m\]"
+FG_DARK="\[\033[38;2;52;54;56m\]"
 
-BG_COLOR2="\[\033[48;2;200;200;200m\]"
-FG_COLOR2="\[\033[38;2;200;200;200m\]"
+BG_LIGHT="\[\033[48;2;180;180;180m\]"
+FG_LIGHT="\[\033[38;2;180;180;180m\]"
 
 FG_BLACK="\[\033[01;30m\]"
 
@@ -54,7 +54,7 @@ if [[ $(tty) == /dev/tty* ]]; then
     PS1='\u@\h \w \$ '
 else
     # You are in a terminal emulator (like Kitty/Alacritty)
-    PS1="╭─${FG_COLOR1}◖${RESET}${BG_COLOR1}\u   ${RESET}${BG_COLOR2}${FG_COLOR1}${RESET}${BG_COLOR2}${FG_BLACK} 📁 \w${RESET}${FG_COLOR2}◗${RESET} \n╰─❯ "
+    PS1="${FG_LIGHT}╭─◖${RESET}${BG_LIGHT}${FG_BLACK}\u  ${RESET}${FG_LIGHT}◗ -${RESET} ${FG_LIGHT}◖${RESET}${BG_LIGHT}${FG_BLACK}\w${RESET}${FG_LIGHT}◗\n╰─❯${RESET} "
 fi
 
 
