@@ -117,6 +117,8 @@ power-profiles-daemon
 python
 python-pandas
 python-pip
+python-scikit-learn
+python-seaborn
 qemu-full
 qt5-wayland
 qt5ct

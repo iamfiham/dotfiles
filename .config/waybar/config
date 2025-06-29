@@ -10,15 +10,15 @@
     // Choose the order of the modules
     "modules-left": [
        "hyprland/workspaces",
-       "hyprland/submap",
        "custom/fullscreen-indicator",
+       "hyprland/submap",
     ],
     "modules-center": [
 		"hyprland/window",
     ],
     "modules-right": [
-        "network",
-        "tray",
+     	"network",
+		"tray",
 		"group/hardware",
     	// "backlight",
         "wireplumber",
@@ -69,7 +69,7 @@
     
     "tray": {
         "icon-size": 15,
-        "spacing": 20,
+        "spacing": 12,
         "show-passive-items": true
         // "icons": {
         //   "blueman": "bluetooth",
@@ -184,7 +184,6 @@
 		    "idle_inhibitor",
 			"cpu",
 	    ]
-	}
-	
+	}	
    
 }
