@@ -33,8 +33,6 @@ alias scrcpy-camera='SDL_VIDEODRIVER=wayland scrcpy --video-source=camera --max-
 alias bat='bat --paging=never'
 alias dotpush=~/.dotfiles/nosimlink-files/dotpush.sh
 
-alias code="code --enable-features=UseOzonePlatform --ozone-platform=wayland"
-
 # --------------------  PS1  ------------------------------------------
 
 BG_DARK="\[\033[48;2;52;54;56m\]"
