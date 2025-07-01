@@ -33,10 +33,10 @@ inputbar {
     padding:    16px 16px;
     spacing:    16px;
     children:   [ icon-search, entry ];
-	background-color: #333333DD;
+	background-color: #333333BB;
     
     margin: 0px 0px 6px 0px;
-    border-radius:  6;
+    border-radius:  12;
 }
 
 icon-search {
@@ -61,7 +61,7 @@ message {
     border-color:       @bg1;
     background-color:   #333333CC;
     margin: 0px 0px 6px 0px;
-    border-radius:  6 ;
+    border-radius:  12 ;
 }
 
 textbox {
@@ -77,7 +77,7 @@ listview {
 /*    border:         1px 0 0; */
 /*    border-color:   @bg1; */
 	background-color:   @bg0;
-	border-radius:  6;
+	border-radius:  12;
 }
 
 element {
