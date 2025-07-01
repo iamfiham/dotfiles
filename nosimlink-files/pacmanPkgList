@@ -43,7 +43,6 @@ gnome-system-monitor
 gnome-text-editor
 gparted
 grub
-gthumb
 gvfs-mtp
 handbrake
 htop
@@ -80,6 +79,7 @@ libva-utils
 linux
 linux-firmware-intel
 linux-headers
+loupe
 lutris
 mako
 man-db
@@ -126,7 +126,6 @@ qt6-multimedia-ffmpeg
 qt6-virtualkeyboard
 qt6ct
 rclone
-ristretto
 rofi-wayland
 rtkit
 scrcpy

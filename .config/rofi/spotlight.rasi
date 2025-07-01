@@ -4,14 +4,13 @@
 * {
     font:   "SF Pro Display 12";
 
-/*    bg0:     #F5F5F5BF; */
-    bg0: 	#FFFFFFAA;
-    bg1:     #7E7E7E80;
-    bg2:     #0860F2E6;
+    bg0:    #242424E6;
+    bg1:    #7E7E7E80;
+    bg2:    #0860f299;
 
-    fg0:     #242424;
-    fg1:     #FFFFFF;
-    fg2:     #24242480;
+    fg0:    #DEDEDE;
+    fg1:    #FFFFFF;
+    fg2:    #DEDEDE80;
 
     background-color:   transparent;
     text-color:         @fg0;
@@ -34,7 +33,7 @@ inputbar {
     padding:    16px 16px;
     spacing:    16px;
     children:   [ icon-search, entry ];
-	background-color: #FFFFFFDD;
+	background-color: #333333DD;
     
     margin: 0px 0px 6px 0px;
     border-radius:  6;
@@ -60,7 +59,7 @@ entry {
 message {
 /*    border:             2px 0 0; */
     border-color:       @bg1;
-    background-color:   #FFFFFFCC;
+    background-color:   #333333CC;
     margin: 0px 0px 6px 0px;
     border-radius:  6 ;
 }
@@ -82,18 +81,13 @@ listview {
 }
 
 element {
-    padding:            5px 24px;
+    padding:            6px 24px;
     spacing:            16px;
     background-color:   transparent;
 }
 
-element  normal {
-	background-color: #FFFFFF66;
-	
-}
-
 element alternate normal {
-	background-color: #FFFFFF33;
+	background-color: #ffffff07;
 	
 }
 
