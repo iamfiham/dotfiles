@@ -17,6 +17,7 @@
 
 HISTSIZE=10000
 export XDG_CONFIG_HOME=~/.config/
+export PATH="~/.local/bin:$PATH"
 
 # --------------------  Alias  ------------------------------------------
 
