@@ -16,6 +16,7 @@ cheese
 clinfo
 cliphist
 conky
+copyq
 cpio
 cpupower
 curl
@@ -92,7 +93,6 @@ nemo
 nemo-fileroller
 network-manager-applet
 networkmanager
-nnn
 nodejs
 ntfs-3g
 nvtop
@@ -167,5 +167,4 @@ wl-clip-persist
 xdg-desktop-portal-gtk
 xdg-desktop-portal-hyprland
 xournalpp
-yazi
 yt-dlp

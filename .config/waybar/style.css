@@ -111,7 +111,6 @@ button:hover {
 }
 
 #workspaces button.special {
-   background: rgba(255, 255, 255, 0.15);
    padding: 0px 8px;
 }
 
@@ -211,24 +210,14 @@ button:hover {
 #hardware{
 	background-color: rgba(255,255,255,0.08);
 	border-radius:99px;
-	padding:0px 3px;
+	padding:0px 12px;
 } 
 
-#title-full {
-	margin: 4px 10px;
-}
-
 #title label{
-	font-size: 13px;
 	font-weight: 600;
 }
 
-#title-full .icon{
-	margin: 0 10px 0 0;	
-}
-
 #title .title label {
-	font-size: 12px;
 	opacity : 0.5;
 	font-weight: 500;
 }
