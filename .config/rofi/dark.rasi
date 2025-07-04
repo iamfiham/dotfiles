@@ -24,13 +24,13 @@ window {
     anchor: center;
   	margin: 100px 0px 0px 0px;
   	border: 2px;
-  	padding:20px;
+  	padding: 16px;
   	border-color: #343434bb;
   	border-radius:  12;
 }
 
 inputbar {
-    padding:    16px 16px;
+    padding:    8px 16px;
     spacing:    16px;
     children:   [ entry ];
     border-radius: 12px;
@@ -58,14 +58,17 @@ entry {
 }
 
 message {
-
+	
+  	    
 }
+
 
 textbox {
     padding:    8px 24px;
 }
 
 listview {
+	margin: 16px 0px 0px 0px;
     lines:      10;
     columns:    1;
     fixed-height:   false;
