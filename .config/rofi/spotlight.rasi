@@ -22,10 +22,12 @@
 
 window {
     background-color:   transparent;
-    location:       north;
-    width:          700;
+    location: north;
+    width: 700;
     anchor: center;
   	margin: 150px 0px 0px 0px;
+  	border: 4px;
+  	border-color: #343434ff;
   	border-radius:  12;
 }
 
