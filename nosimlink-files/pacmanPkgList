@@ -30,6 +30,7 @@ exfatprogs
 fastfetch
 fd
 ffmpegthumbnailer
+file-roller
 firefox
 fish
 flatpak
@@ -90,7 +91,6 @@ mpv
 nano
 ncdu
 nemo
-nemo-fileroller
 network-manager-applet
 networkmanager
 nodejs
@@ -168,3 +168,4 @@ xdg-desktop-portal-gtk
 xdg-desktop-portal-hyprland
 xournalpp
 yt-dlp
+zip
