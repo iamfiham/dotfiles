@@ -9,7 +9,6 @@
 # ╚═════╝ ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝
                                                 
 
-
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
@@ -24,40 +23,42 @@ export PATH="~/.local/bin:$PATH"
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 alias mp='mousepad'
-alias ll='ls -alhF'
+alias ll='ls -alhF --color=auto'
 
 alias rcp='rsync -ahv --progress'
 alias srcp='sudo rsync -ahv --progress'
-# alias scrcpy-screen='SDL_VIDEODRIVER=wayland scrcpy --max-size=944 --max-fps=60 --video-codec=h264 --video-bit-rate=4M --video-buffer=50 --print-fps'
-# alias scrcpy-camera='SDL_VIDEODRIVER=wayland scrcpy --video-source=camera --max-fps=30 --camera-size=1920x1080 --camera-facing=front --print-fps'
+
+
+# add "SDL_VIDEODRIVER=wayland" env to run scrcpy in wayland
 alias scrcpy-screen='scrcpy --max-size=1440 --max-fps=60 --video-codec=h264 --video-bit-rate=4M --video-buffer=50 --print-fps'
 alias scrcpy-camera='scrcpy --video-source=camera --max-fps=30 --camera-size=1920x1080 --camera-facing=front --print-fps   --orientation=180'
 
 alias bat='bat --paging=never'
+
 alias dotpush=~/.dotfiles/nosimlink-files/dotpush.sh
 
 # --------------------  PS1  ------------------------------------------
 
-BG_DARK="\[\033[48;2;52;54;56m\]"
-FG_DARK="\[\033[38;2;52;54;56m\]"
+# Git prompt source
+source /usr/share/git/git-prompt.sh
 
-BG_LIGHT="\[\033[48;2;180;180;180m\]"
-FG_LIGHT="\[\033[38;2;180;180;180m\]"
+# Colors
+FG_LIGHT_GRAY="\[\033[38;5;250m\]"
+FG_SOFT_GREEN="\[\033[38;5;113m\]"
+FG_MED_GRAY="\[\033[38;5;245m\]"
+FG_DARK_GRAY="\[\033[38;5;240m\]"
+RESET="\[\033[0m\]"
 
-FG_BLACK="\[\033[01;30m\]"
+FIRST_PROMPT=1
 
-
-RESET="\[\033[00m\]" 
-
-
-if [[ $(tty) == /dev/tty* ]]; then
-    # You are in a real TTY
-    PS1='\u@\h \w \$ '
-else
-    # You are in a terminal emulator (like Kitty/Alacritty)
-    PS1="${FG_LIGHT}╭─◖${RESET}${BG_LIGHT}${FG_BLACK}\u  ${RESET}${FG_LIGHT}◗ -${RESET} ${FG_LIGHT}◖${RESET}${BG_LIGHT}${FG_BLACK}\w${RESET}${FG_LIGHT}◗\n╰─❯${RESET} "
-fi
-
+PROMPT_COMMAND='
+  if [[ $FIRST_PROMPT -eq 1 ]]; then
+    FIRST_PROMPT=0
+    PS1="${FG_LIGHT_GRAY}\u@\h ${FG_SOFT_GREEN}\w${FG_MED_GRAY}$(__git_ps1 " (%s)")\n${FG_DARK_GRAY}❯${RESET} "
+  else
+    PS1="\n${FG_LIGHT_GRAY}\u@\h ${FG_SOFT_GREEN}\w${FG_MED_GRAY}$(__git_ps1 " (%s)")\n${FG_DARK_GRAY}❯${RESET} "
+  fi
+'
 
 # --------------------  bind  ------------------------------------------
 
@@ -94,4 +95,6 @@ export FZF_CTRL_T_COMMAND=$FZF_DEFAULT_COMMAND
 export FZF_ALT_C_COMMAND=''
 
 # ----------------------------------------------------------------------
+
+
 
