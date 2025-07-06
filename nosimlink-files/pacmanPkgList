@@ -2,7 +2,6 @@ adw-gtk-theme
 alsa-firmware
 alsa-utils
 android-tools
-arch-install-scripts
 base
 base-devel
 bash-completion
@@ -10,8 +9,6 @@ bat
 blueman
 bluez-obex
 brightnessctl
-btop
-cava
 cheese
 clinfo
 cliphist
@@ -23,7 +20,6 @@ curl
 dhcpcd
 discord
 dnsmasq
-easyeffects
 efibootmgr
 evince
 exfatprogs
@@ -33,7 +29,6 @@ ffmpegthumbnailer
 file-roller
 firefox
 fish
-flatpak
 fuse3
 fzf
 gamemode
@@ -42,7 +37,6 @@ git
 gnome-calculator
 gnome-font-viewer
 gnome-system-monitor
-gnome-text-editor
 gparted
 grub
 gvfs-mtp
@@ -51,7 +45,6 @@ htop
 hypridle
 hyprland
 hyprlock
-hyprpolkitagent
 hyprshot
 hyprsunset
 i7z
@@ -60,10 +53,10 @@ intel-gpu-tools
 intel-media-driver
 intel-ucode
 inter-font
+iptables-nft
 jupyter-notebook
 kdeconnect
 kdenlive
-kget
 kitty
 kvantum
 kvantum-qt5
@@ -96,7 +89,6 @@ networkmanager
 nodejs
 ntfs-3g
 nvtop
-nwg-dock-hyprland
 nwg-look
 obs-studio
 obsidian
@@ -127,14 +119,12 @@ qt6-virtualkeyboard
 qt6ct
 rclone
 rofi-wayland
-rtkit
 scrcpy
 sddm
 sof-firmware
 stow
 sudo
 swww
-syncthing
 tealdeer
 telegram-desktop
 terminus-font
@@ -144,6 +134,7 @@ ttf-cascadia-mono-nerd
 ttf-dejavu-nerd
 ttf-firacode-nerd
 ttf-ibm-plex
+ttf-jetbrains-mono
 ttf-opensans
 ttf-roboto
 ttf-ubuntu-font-family
