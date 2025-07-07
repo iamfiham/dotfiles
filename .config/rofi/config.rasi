@@ -86,7 +86,6 @@ configuration {
 
 	/*---------- File browser settings ----------*/
     filebrowser {
-	  directory: "/home/iamfiham/";
       directories-first: true;
       sorting-method:    "name";
 	  show-hidden: true;

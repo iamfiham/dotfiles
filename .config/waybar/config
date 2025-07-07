@@ -180,7 +180,7 @@
 	
 	"hyprland/windowcount": {
 		"format": " ",
-		"format-fullscreen": "Fullscreen   /  {}",
+		"format-fullscreen": "Maximized   /  {}",
 		"separate-outputs": true
 	},
    
