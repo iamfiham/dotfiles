@@ -1,7 +1,9 @@
 adw-gtk-theme
 alsa-firmware
 alsa-utils
+android-file-transfer
 android-tools
+aria2
 base
 base-devel
 bash-completion
@@ -22,7 +24,6 @@ dhcpcd
 discord
 dnsmasq
 efibootmgr
-evince
 exfatprogs
 fastfetch
 fd
@@ -87,6 +88,7 @@ ncdu
 nemo
 network-manager-applet
 networkmanager
+nginx
 nodejs
 ntfs-3g
 nvtop
@@ -98,6 +100,7 @@ os-prober
 otf-font-awesome
 otf-montserrat
 pacman-contrib
+papers
 pavucontrol
 pdfarranger
 pipewire
@@ -129,6 +132,7 @@ swww
 tealdeer
 telegram-desktop
 terminus-font
+thunar
 timeshift
 tree
 ttf-cascadia-code
