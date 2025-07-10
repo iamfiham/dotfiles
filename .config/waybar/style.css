@@ -1,6 +1,6 @@
 * {
     /* `otf-font-awesome` is required to be installed for icons */
-    font-family:PP Neue Montreal, JetBrainsMono Nerd Font, sans-serif;
+    font-family:PP Neue Montreal, JetBrainsMonoNL Nerd Font Propo, sans-serif;
     font-size: 14px;
     font-weight: 500;
     min-height: 0; 
@@ -166,12 +166,6 @@ button:hover {
     animation-direction: alternate;
 }
 
-#power-profiles-daemon {
-	padding: 0 0px;
-}
-
-
-
 #power-profiles-daemon.balanced {
     /* background-color: #2980b9; */
     /* color: #ffffff; */
@@ -183,9 +177,7 @@ button:hover {
 }
 
 #idle_inhibitor {
-    /* background-color: #2d3436; */
 	margin: 4px 6px;
-	padding: 0 4px 0 6px;
 }
 
 #power-profiles-daemon.performance, #idle_inhibitor.activated {

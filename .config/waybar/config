@@ -36,13 +36,7 @@
          "show-special" :true,
          "sort-by" : "id"
      }, 
-    "idle_inhibitor": {
-        "format": "{icon}",
-        "format-icons": {
-            "activated": " ",
-            "deactivated": " "
-        }
-    },
+
     "tray": {
         "icon-size": 15,
         "spacing": 12,
@@ -61,7 +55,7 @@
     },
     
     "cpu": {
-        "format": "   {usage}%",
+        "format": " {usage}%",
         "tooltip": true,
         "format-icons": ["▁", "▂", "▃", "▄", "▅", "▆", "▇", "█"],
     },
@@ -72,15 +66,15 @@
             "critical": 10
         },
 		"interval": 1,
-        "format": "{icon} {capacity}%",
-        "format-full": "{icon} {capacity}%",
-        "format-charging": "{icon}󱐋 {capacity}%",
+        "format": "{icon}  {capacity}%",
+        "format-full": "{icon}  {capacity}%",
+        "format-charging": "{icon}󱐋  {capacity}%",
         "format-plugged": "  {capacity}%",
         "format-icons": ["󰁺", "󰁼", "󰁿", "󰂀", "󰂂"]
     },
 	
 	"idle_inhibitor": {
-		"format": "{icon} ",
+		"format": "{icon}",
 		"format-icons": {
 		    "activated": "",
 		    "deactivated": ""
@@ -88,7 +82,7 @@
 	},
 	
     "power-profiles-daemon": {
-      "format": " {icon} ",
+      "format": "{icon}",
       "tooltip-format": "{profile}\nDriver: {driver}",
       "tooltip": true,
       "format-icons": {
@@ -118,7 +112,7 @@
             "phone": "",
             "portable": "",
             "car": "",
-            "default": ["", " ", "  "]
+            "default": ["", "", ""]
         },
         "reverse-scrolling" : true,
         "on-click": "pavucontrol"
