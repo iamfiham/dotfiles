@@ -10,6 +10,7 @@ bash-completion
 bat
 blueman
 bluez-obex
+bluez-utils
 brightnessctl
 cheese
 clinfo
@@ -21,6 +22,7 @@ cpio
 cpupower
 curl
 discord
+dnsmasq
 efibootmgr
 exfatprogs
 fastfetch
@@ -116,8 +118,6 @@ python-seaborn
 qemu-full
 qt5-wayland
 qt5ct
-qt6-multimedia-ffmpeg
-qt6-virtualkeyboard
 qt6ct
 rclone
 rofi-wayland
