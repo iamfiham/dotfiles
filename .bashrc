@@ -49,7 +49,12 @@ FG_MED_GRAY="\[\033[38;5;245m\]"
 FG_DARK_GRAY="\[\033[38;5;240m\]"
 RESET="\[\033[0m\]"
 
-PS1="${FG_LIGHT_GRAY}\u@\h ${FG_SOFT_GREEN}\w${FG_MED_GRAY}\[ $(__git_ps1 " (%s)")\]\n${FG_DARK_GRAY}❯${RESET} "
+
+# Set PS1 (with placeholder)
+PS1="${FG_LIGHT_GRAY}\u@\h ${FG_SOFT_GREEN}\w${FG_MED_GRAY} \${GIT_BRANCH}\n${FG_DARK_GRAY}❯${RESET} "
+
+# Update branch in PROMPT_COMMAND
+PROMPT_COMMAND='GIT_BRANCH=$(__git_ps1 "(%s)")'
 
 
 # --------------------  bind  ------------------------------------------
