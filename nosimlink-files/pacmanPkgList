@@ -39,6 +39,7 @@ git
 gnome-calculator
 gnome-font-viewer
 gnome-system-monitor
+gnome-text-editor
 gparted
 grub
 gvfs-mtp
@@ -91,6 +92,7 @@ network-manager-applet
 networkmanager
 nginx
 nodejs
+npm
 ntfs-3g
 nvtop
 nwg-look
@@ -131,7 +133,6 @@ swww
 tealdeer
 telegram-desktop
 terminus-font
-thunar
 timeshift
 tree
 ttf-cascadia-code
