@@ -24,7 +24,7 @@ window {
     anchor: center;
   	margin: 100px 0px 0px 0px;
   	border: 2px;
-  	padding: 16px;
+  	padding: 8px;
   	border-color: #343434bb;
   	border-radius:  12;
 }
@@ -75,8 +75,8 @@ listview {
 }
 
 element {
-    padding:            8px 16px;
-    border-radius: 12px;
+    padding:            6px 8px;
+    border-radius: 8px;
     spacing:            16px;
     background-color:   transparent;
 }
