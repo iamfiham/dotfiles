@@ -93,12 +93,14 @@ button:hover {
 	background-color: rgba(255,255,255,0.15);
 	padding: 0px 0px;
 	font-size: 5px;
+
 }
 
 #workspaces  {
 	background-color: rgba(255,255,255,0.08);
 	border-radius:99px;
 	padding : 1px 1px;
+	margin: 4px 0px 4px 8px;
 }
 
 #workspaces button {
