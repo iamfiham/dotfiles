@@ -23,6 +23,7 @@ export PATH="~/.local/bin:$PATH"
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 alias mp='mousepad'
+alias gt='gnome-text-editor'
 alias ll='ls -alhF --color=auto'
 
 alias rcp='rsync -ahv --progress'
@@ -49,14 +50,11 @@ FG_MED_GRAY="\[\033[38;5;245m\]"
 FG_DARK_GRAY="\[\033[38;5;240m\]"
 RESET="\[\033[0m\]"
 
-
 # Update branch in PROMPT_COMMAND
-PROMPT_COMMAND="GIT_BRANCH=$(__git_ps1 "(%s)"); history -a; $PROMPT_COMMAND"
+PROMPT_COMMAND="history -a"
 
 # Set PS1 (with placeholder)
-PS1="${FG_LIGHT_GRAY}\u@\h ${FG_SOFT_GREEN}\w${FG_MED_GRAY} \${GIT_BRANCH}\n${FG_DARK_GRAY}❯${RESET} "
-
-
+PS1="${FG_LIGHT_GRAY}\u@\h ${FG_SOFT_GREEN}\w${FG_MED_GRAY}\n${FG_DARK_GRAY}❯${RESET} "
 
 # --------------------  bind  ------------------------------------------
 

@@ -24,7 +24,7 @@
 }
 {
     "label" : "suspend",
-    "action" : "hyprlock & disown && systemctl suspend",
+    "action" : "bash -c 'hyprlock & systemctl suspend'",
     "text" : "Suspend",
     "keybind" : "u"
 }
