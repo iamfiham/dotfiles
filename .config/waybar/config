@@ -21,6 +21,7 @@
      	"network",
 		"tray",
 		"group/hardware",
+		"cpu",
         "wireplumber",
         "battery",
         "clock"
@@ -148,7 +149,6 @@
 		"modules": [
 		    "power-profiles-daemon",
 		    "idle_inhibitor",
-			"cpu",
 	    ]
 	},	
 	

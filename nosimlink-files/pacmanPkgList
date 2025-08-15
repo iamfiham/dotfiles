@@ -37,10 +37,12 @@ gamemode
 ghex
 gimp
 git
+glad
 gnome-calculator
 gnome-font-viewer
 gnome-system-monitor
 gnome-text-editor
+gnu-netcat
 gparted
 grub
 gvfs-mtp
@@ -113,6 +115,7 @@ pipewire-pulse
 pipewire-v4l2
 pnpm
 polkit-gnome
+postgresql
 power-profiles-daemon
 python
 python-pandas
@@ -150,11 +153,11 @@ ttf-roboto-mono-nerd
 ttf-ubuntu-font-family
 tumbler
 ufw
-uget
 usbutils
 vim
 virt-manager
 vlc
+vlc-plugins-all
 vpl-gpu-rt
 vulkan-intel
 waybar
