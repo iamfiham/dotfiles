@@ -1,6 +1,9 @@
 davinci-resolve
 google-chrome
+govarnam-bin
+govarnam-bin-debug
 gpu-screen-recorder-gtk
+i7z
 lib32-obs-vkcapture
 localsend-bin
 obs-vkcapture
@@ -10,3 +13,4 @@ ventoy-bin
 visual-studio-code-bin
 wlogout
 yay
+zoom

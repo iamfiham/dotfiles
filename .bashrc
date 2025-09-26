@@ -16,7 +16,7 @@
 
 HISTSIZE=10000
 export XDG_CONFIG_HOME=~/.config/
-export PATH="~/.local/bin:$PATH"
+export PATH="$HOME/.local/bin:$PATH"
 
 # --------------------  Alias  ------------------------------------------
 
@@ -92,5 +92,8 @@ export FZF_ALT_C_COMMAND=''
 
 # ----------------------------------------------------------------------
 
+export GTK_IM_MODULE=ibus
+export QT_IM_MODULE=ibus
+export XMODIFIERS=@im=ibus
 
 

@@ -53,7 +53,7 @@ hyprland
 hyprlock
 hyprshot
 hyprsunset
-i7z
+ibus
 imagemagick
 intel-gpu-tools
 intel-media-driver
@@ -128,7 +128,7 @@ qt5-wayland
 qt5ct
 qt6ct
 rclone
-rofi-wayland
+rofi
 scrcpy
 sddm
 sof-firmware
