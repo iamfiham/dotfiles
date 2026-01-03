@@ -38,6 +38,8 @@ alias bat='bat --paging=never'
 
 alias dotpush=~/.dotfiles/nosimlink-files/dotpush.sh
 
+alias arduino-ide=arduino-ide --enable-features=UseOzonePlatform --ozone-platform=wayland 
+
 # --------------------  PS1  ------------------------------------------
 
 # Git prompt source

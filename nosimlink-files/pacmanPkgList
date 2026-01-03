@@ -42,7 +42,6 @@ gnome-calculator
 gnome-font-viewer
 gnome-system-monitor
 gnome-text-editor
-gnu-netcat
 gparted
 grub
 gvfs-mtp
@@ -108,6 +107,7 @@ otf-montserrat
 pacman-contrib
 papers
 pavucontrol
+pavucontrol-qt
 pdfarranger
 perl-image-exiftool
 pipewire
@@ -121,13 +121,16 @@ power-profiles-daemon
 python
 python-pandas
 python-pip
+python-plotly
 python-scikit-learn
 python-seaborn
+python-sympy
 qemu-full
 qt5-wayland
 qt5ct
 qt6ct
 rclone
+reflector
 rofi
 scrcpy
 sddm
@@ -139,6 +142,7 @@ tealdeer
 telegram-desktop
 terminus-font
 timeshift
+tk
 tree
 ttf-cascadia-code
 ttf-cascadia-mono-nerd

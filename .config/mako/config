@@ -26,9 +26,6 @@ default-timeout=7500
 ignore-timeout=0
 max-visible=5
 
-on-notify=exec paplay /usr/share/sounds/freedesktop/stereo/bell.oga
-
-[urgency=low]
 on-notify=none
 
 progress-color=source #ffffff22

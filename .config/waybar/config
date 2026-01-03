@@ -116,7 +116,7 @@
             "default": ["", "", ""]
         },
         "reverse-scrolling" : true,
-        "on-click": "pavucontrol"
+        "on-click": "pkill pavucontrol-qt || pavucontrol-qt"
     },
     
     "wlr/taskbar": {
