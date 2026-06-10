@@ -23,7 +23,7 @@ export PATH="$HOME/.local/bin:$PATH"
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 alias mp='mousepad'
-alias gt='gnome-text-editor'
+alias gt='gnome-text-editor -s'
 alias ll='ls -alhF --color=auto'
 
 alias rcp='rsync -ahv --progress'
