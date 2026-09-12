@@ -5,6 +5,8 @@ alsa-utils
 android-file-transfer
 android-tools
 aria2
+arm-none-eabi-gcc
+arm-none-eabi-newlib
 awww
 baobab
 base
@@ -73,6 +75,7 @@ gparted
 grilo-plugins
 grub
 gst-thumbnailers
+gtk4
 gvfs-afc
 gvfs-dnssd
 gvfs-goa
@@ -84,6 +87,9 @@ gvfs-smb
 gvfs-wsdd
 handbrake
 htop
+hyprland
+hyprlock
+hyprshot
 ibus
 imagemagick
 intel-gpu-tools
@@ -101,7 +107,6 @@ lib32-gamemode
 lib32-libpulse
 lib32-mangohud
 lib32-mesa
-lib32-openal
 lib32-pipewire
 lib32-vulkan-intel
 libreoffice-fresh
@@ -111,21 +116,23 @@ linux-firmware-intel
 linux-headers
 loupe
 lutris
+mako
 malcontent
 man-db
 mangohud
-mousepad
 mpv
 nano
 ncdu
 nemo
 net-tools
+network-manager-applet
 networkmanager
 nginx
 nodejs
 npm
 ntfs-3g
 nvtop
+nwg-look
 obs-studio
 obsidian
 openssh
@@ -134,7 +141,7 @@ os-prober
 otf-font-awesome
 otf-montserrat
 pacman-contrib
-papers
+pavucontrol
 pdfarranger
 perl-image-exiftool
 pipewire
@@ -144,6 +151,7 @@ pipewire-v4l2
 pnpm
 polkit-gnome
 postgresql
+power-profiles-daemon
 python
 python-pandas
 python-pip
@@ -152,6 +160,7 @@ python-pyserial
 python-scikit-learn
 python-seaborn
 python-sympy
+python-weasyprint
 qemu-full
 qt5-wayland
 qt5ct
@@ -175,6 +184,7 @@ telegram-desktop
 terminus-font
 timeshift
 tk
+tmux
 tree
 ttf-cascadia-code
 ttf-cascadia-mono-nerd
@@ -197,6 +207,7 @@ vlc
 vlc-plugins-all
 vpl-gpu-rt
 vulkan-intel
+waybar
 wev
 wget
 wine

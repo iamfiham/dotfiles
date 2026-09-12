@@ -1,14 +1,16 @@
 arduino-ide-bin
+arm-gnu-toolchain-arm-none-linux-gnueabihf-bin
+arm-linux-gnueabi-gcc
 davinci-resolve
 gnu-netcat
 google-chrome
 gpu-screen-recorder-gtk
 i7z
 lib32-obs-vkcapture
+lib32-openal
 localsend-bin
 obs-vkcapture
 onlyoffice-bin
-upscayl-bin
 ventoy-bin
 visual-studio-code-bin
 wlogout

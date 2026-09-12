@@ -10,18 +10,16 @@
     // Choose the order of the modules
     "modules-left": [
        "hyprland/workspaces",
-		"hyprland/windowcount",
+	"hyprland/windowcount",
        "hyprland/submap",
     ],
     "modules-center": [
 		"group/title",
-
     ],
     "modules-right": [
      	"network",
-		"tray",
-		"group/hardware",
-		"cpu",
+	"tray",
+	"group/hardware",
         "wireplumber",
         "battery",
         "clock"
@@ -41,11 +39,7 @@
     "tray": {
         "icon-size": 15,
         "spacing": 12,
-        "show-passive-items": true
-        // "icons": {
-        //   "blueman": "bluetooth",
-        //   "TelegramDesktop": "$HOME/.local/share/icons/hicolor/16x16/apps/telegram.png"
-        // }
+        "show-passive-items": true,
     },
     
     "clock": {
@@ -81,7 +75,7 @@
 		    "deactivated": ""
 		}
 	},
-	
+
     "power-profiles-daemon": {
       "format": "{icon}",
       "tooltip-format": "{profile}\nDriver: {driver}",
@@ -116,36 +110,11 @@
             "default": ["", "", ""]
         },
         "reverse-scrolling" : true,
-        "on-click": "pkill pavucontrol-qt || pavucontrol-qt"
+        "on-click": "pkill pavucontrol || pavucontrol"
     },
-    
-    "wlr/taskbar": {
-		"all-outputs": true,
-		"format": "{icon}",
-		"icon-size": 14,
-		// "icon-theme": "Numix-Circle",
-		"tooltip-format": "{title}",
-		"on-click": "minimize-raise",
-		"on-click-middle": "close",
-		"ignore-list": [
-		   "Alacritty"
-		],
-		"app_ids-mapping": {
-		  "firefoxdeveloperedition": "firefox-developer-edition"
-		}
-	},
-	
-	"custom/seperator": {
-		"format": " ", 
-	},
 	
 	"group/hardware": {
 		"orientation": "horizontal",
-		//"drawer": {
-		//	"transition-duration": 200,
-		//	"children-class": "not-power",
-		//	"transition-left-to-right": true,
-		//},
 		"modules": [
 		    "power-profiles-daemon",
 		    "idle_inhibitor",
