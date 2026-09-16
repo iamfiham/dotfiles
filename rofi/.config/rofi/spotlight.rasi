@@ -23,7 +23,7 @@
 window {
     background-color:   transparent;
     location: north;
-    width: 700;
+    width: 600;
     anchor: center;
   	margin: 150px 0px 0px 0px;
   	border: 4px;
@@ -33,9 +33,9 @@ window {
 
 inputbar {
     font:   "SF Pro Display 14";
-    padding:    16px 16px;
+    padding:    12px 24px;
     spacing:    16px;
-    children:   [ icon-search, entry ];
+    children:   [ entry ];
 	background-color: #333333BB;
 }
 
@@ -67,7 +67,7 @@ textbox {
 }
 
 listview {
-    lines:      17;
+    lines: 9;
     columns:    1;
 /*    scrollbar: true; */
 

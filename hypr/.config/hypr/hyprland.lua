@@ -1,6 +1,5 @@
 -- ============================================================
 -- hyprland.lua
--- Current Hyprland Lua configuration
 -- ============================================================
 
 ------------------
@@ -78,12 +77,12 @@ hl.config({
         gaps_in = 3,
         gaps_out = 6,
 
-        border_size = 2,
+        border_size = 1,
 
         col = {
             active_border = {
                 colors = {
-                    "rgba(40,40,40,1)",
+                    "rgba(40,60,60,1)",
                     "rgba(40,40,40,1)",
                 },
                 angle = 60,
@@ -104,14 +103,14 @@ hl.config({
     },
 
     decoration = {
-        rounding = 2,
+        rounding = 3,
         rounding_power = 2,
 
         active_opacity = 1,
         inactive_opacity = 1,
 
-        dim_around = 0.35,
-        dim_special = 0.5,
+        dim_around = 0.5,
+        dim_special = 0.3,
 
         shadow = {
             enabled = true,
@@ -141,7 +140,7 @@ hl.config({
 
     master = {
         new_on_top = false,
-        allow_small_split = true,
+        allow_small_split = false,
         mfact = 0.57,
     },
 
@@ -567,11 +566,6 @@ hl.bind(
 )
 
 hl.bind(
-    mainMod .. " + SHIFT + M",
-    hl.dsp.exit()
-)
-
-hl.bind(
     mainMod .. " + E",
     hl.dsp.exec_cmd(
         "bash -c '" .. fileManager
@@ -614,15 +608,15 @@ hl.bind(
 
 -- SUPER + SHIFT + F = normal fullscreen toggle
 hl.bind(
-    mainMod .. " + SHIFT + F",
+    mainMod .. " + F",
     hl.dsp.window.fullscreen()
 )
 
 -- SUPER + F = force fullscreen while keeping client non-fullscreen
 -- This prevents Chromium-style apps from entering presentation mode.
 hl.bind(
-    mainMod .. " + F",
-    hl.dsp.window.fullscreen_state({
+    mainMod .. " + SHIFT + F",
+    hl.dsp.window.fullscreen({
         internal = 2,
         client = 0,
     })
@@ -930,11 +924,6 @@ end)
 ---- MAXIMIZE FEATURE / GAP HANDLING ----
 -----------------------------------------
 
-hl.workspace_rule({
-    workspace = "f[1]",
-    gaps_out = 60,
-    gaps_in = 0,
-})
 
 hl.workspace_rule({
     workspace = "w[tv1]",
@@ -943,8 +932,8 @@ hl.workspace_rule({
 })
 
 hl.workspace_rule({
-    workspace = "w[tv1]w[fv1-999]f[1]",
-    gaps_out = 60,
+    workspace = "f[1]",
+    gaps_out = 30,
     gaps_in = 0,
 })
 
@@ -963,16 +952,34 @@ hl.window_rule({
     rounding = 0,
 })
 
+
+
+hl.window_rule({
+    name = "gaps-wtv1-f1",
+    match = {
+        float = false,
+        workspace = "w[tv1]f[1]",
+    },
+    border_size = 1,
+    rounding = 4,
+})
+
+
+
+
+--[[
+
 hl.window_rule({
     name = "gaps-wtv1-fv1-f1",
     match = {
         float = false,
         workspace = "w[tv1]w[fv1-999]f[1]",
     },
-    border_size = 2,
+    border_size = 80,
     rounding = 2,
-})
+}) 
 
+]]
 
 --------------------------
 ---- SPECIAL WS RULES ----
@@ -980,13 +987,13 @@ hl.window_rule({
 
 hl.workspace_rule({
     workspace = "s[true]",
-    gaps_out = 60,
+    gaps_out = 30,
     gaps_in = 4,
 })
 
 hl.workspace_rule({
     workspace = "s[true]f[1]",
-    gaps_out = gap,
+    gaps_out = 60,
     gaps_in = 4,
 })
 
@@ -996,7 +1003,7 @@ hl.window_rule({
         float = false,
         workspace = "s[true]",
     },
-    border_size = 2,
+    border_size = 1,
     rounding = 2,
 })
 

@@ -100,4 +100,5 @@ configuration {
 
 
 
-@theme "dark.rasi"
+//@theme "dark.rasi"
+@theme "spotlight.rasi"

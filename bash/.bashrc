@@ -36,7 +36,7 @@ alias scrcpy-camera='scrcpy --video-source=camera --max-fps=30 --camera-size=192
 
 alias bat='bat --paging=never'
 
-alias dotpush=~/.dotfiles/nosimlink-files/dotpush.sh
+alias dotpush=~/.dotfiles/.nosimlink_files/dotpush.sh
 
 alias arduino-ide=arduino-ide --enable-features=UseOzonePlatform --ozone-platform=wayland 
 
@@ -56,7 +56,7 @@ RESET="\[\033[0m\]"
 PROMPT_COMMAND="history -a"
 
 # Set PS1 (with placeholder)
-PS1="${FG_LIGHT_GRAY}\u@\h ${FG_SOFT_GREEN}\w${FG_MED_GRAY}\n${FG_DARK_GRAY}❯${RESET} "
+PS1="${FG_LIGHT_GRAY}\u@\h ${FG_SOFT_GREEN}\w${FG_MED_GRAY} ${FG_DARK_GRAY}❯${RESET} "
 
 # --------------------  bind  ------------------------------------------
 
